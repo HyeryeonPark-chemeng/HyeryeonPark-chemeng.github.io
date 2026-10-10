@@ -7,8 +7,8 @@ projects:
     period: ""
     image: ""
     image_alt: ""
-    scientific_problem: ""
-    contribution: ""
+    description: >-
+      Investigated the interfacial driving forces governing spontaneous surface segregation of surface-modified nanoparticles in polymer thin films. Designed nanoparticle surface-modification strategies and quantified through-thickness particle distributions to establish relationships between segregation behavior and mechanical and optical performance.
     links: []
   - title: Shear-Directed Nanorod Alignment
     id: shear-directed-nanorod-alignment
@@ -16,8 +16,7 @@ projects:
     period: ""
     image: ""
     image_alt: ""
-    scientific_problem: ""
-    contribution: ""
+    description: ""
     links: []
   - title: Fuel-Cell Adhesive Durability
     id: fuel-cell-adhesive-durability
@@ -25,8 +24,7 @@ projects:
     period: ""
     image: ""
     image_alt: ""
-    scientific_problem: ""
-    contribution: ""
+    description: ""
     links: []
   - title: Dual-Network Acrylic Adhesives
     id: dual-network-acrylic-adhesives
@@ -34,8 +32,7 @@ projects:
     period: ""
     image: ""
     image_alt: ""
-    scientific_problem: ""
-    contribution: ""
+    description: ""
     links: []
   - title: Stretchable Optical Films / NRF Project
     id: stretchable-optical-films-nrf-project
@@ -43,8 +40,7 @@ projects:
     period: ""
     image: ""
     image_alt: ""
-    scientific_problem: ""
-    contribution: ""
+    description: ""
     links: []
   - title: Magnetic-Field-Directed Particle Patterning
     id: magnetic-field-directed-particle-patterning
@@ -52,6 +48,5 @@ projects:
     period: ""
     image: ""
     image_alt: ""
-    scientific_problem: ""
-    contribution: ""
+    description: ""
     links: []

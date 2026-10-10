@@ -14,17 +14,13 @@ _styles: |
   .research-project-card { scroll-margin-top: 5rem; display: grid; grid-template-columns: 32% minmax(0, 1fr); overflow: hidden; border: 1px solid var(--global-divider-color); border-left: 2px solid var(--global-theme-color); border-radius: 3px; background: color-mix(in srgb, var(--global-text-color) 1.5%, var(--global-bg-color)); margin-bottom: 1.5rem; }
   .research-project-visual { display: flex; align-items: center; justify-content: center; min-height: 240px; margin: 0; border-right: 1px solid var(--global-divider-color); background: color-mix(in srgb, var(--global-text-color) 3%, var(--global-bg-color)); }
   .research-project-visual img { display: block; width: 100%; height: auto; object-fit: contain; }
-  .research-figure-placeholder { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.5rem; width: calc(100% - 3rem); min-height: 150px; padding: 1rem; border: 1px dashed var(--global-divider-color); text-align: center; }
+  .research-figure-placeholder { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.5rem; width: calc(100% - 3rem); min-height: 150px; padding: 1rem; text-align: center; }
   .research-figure-placeholder span { font-size: 0.95rem; color: color-mix(in srgb, var(--global-text-color) 65%, var(--global-bg-color)); }
   .research-figure-placeholder small { font-size: 0.8rem; color: color-mix(in srgb, var(--global-text-color) 55%, var(--global-bg-color)); }
   .research-project-content { display: flex; flex-direction: column; padding: 1.5rem 1.75rem; min-width: 0; }
   .research-project-content h3 { font-size: 1.3rem; font-weight: 700; line-height: 1.4; margin: 0 0 0.45rem; }
   .research-project-meta { font-size: 0.85rem; line-height: 1.5; margin: 0 0 1.25rem; color: color-mix(in srgb, var(--global-text-color) 60%, var(--global-bg-color)); }
-  .research-project-summary { margin: 0 0 1.25rem; }
-  .research-project-summary dt { font-size: 0.95rem; font-weight: 600; line-height: 1.5; margin-bottom: 0.3rem; }
-  .research-project-summary dd { font-size: 0.95rem; line-height: 1.7; margin: 0 0 0.8rem; }
-  .research-project-summary dd:last-child { margin-bottom: 0; }
-  .research-project-summary .placeholder-copy { color: color-mix(in srgb, var(--global-text-color) 60%, var(--global-bg-color)); }
+  .research-project-summary { font-size: 1rem; line-height: 1.75; margin: 0 0 1.25rem; }
   .research-project-links { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; list-style: none; margin: auto 0 0; padding: 0.8rem 0 0; border-top: 1px solid var(--global-divider-color); font-size: 0.85rem; }
   .research-project-links .placeholder-link { color: color-mix(in srgb, var(--global-text-color) 50%, var(--global-bg-color)); }
   .research-project-links a { color: var(--global-text-color); text-decoration: underline; text-underline-offset: 0.2em; }
@@ -34,23 +30,22 @@ _styles: |
   .research-project-group--featured .research-figure-placeholder { width: calc(100% - 2rem); min-height: 180px; border: 0; }
   .research-project-group--featured .research-project-content h3 { font-size: 1.45rem; line-height: 1.35; margin-bottom: 0.55rem; }
   .research-project-group--featured .research-project-meta { font-size: 0.8rem; }
-  .research-project-group--featured .research-project-summary dt { font-size: 0.8rem; font-weight: 500; color: color-mix(in srgb, var(--global-text-color) 65%, var(--global-bg-color)); margin-bottom: 0.35rem; }
-  .research-project-group--featured .research-project-summary dd { font-size: 1rem; line-height: 1.75; }
-  .research-project-group--featured .research-project-summary .placeholder-copy { color: color-mix(in srgb, var(--global-text-color) 80%, var(--global-bg-color)); }
   .research-project-group--featured .research-project-links { font-size: 0.85rem; font-weight: 500; }
   .research-project-group--featured .research-project-links .placeholder-link { color: color-mix(in srgb, var(--global-text-color) 60%, var(--global-bg-color)); }
   .research-project-group--additional > h2 { font-size: 1.4rem; }
-  .research-project-group--additional .research-project-content { padding: 1.2rem 1.5rem; }
+  .research-project-group--additional .research-project-card { grid-template-columns: 25% minmax(0, 1fr); }
+  .research-project-group--additional .research-project-content { padding: 1rem 1.25rem; }
   .research-project-group--additional .research-project-content h3 { font-size: 1.15rem; }
-  .research-project-group--additional .research-project-visual { min-height: 190px; }
-  .research-project-group--additional .research-figure-placeholder { min-height: 120px; }
+  .research-project-group--additional .research-project-visual { min-height: 150px; }
+  .research-project-group--additional .research-figure-placeholder { min-height: 100px; width: calc(100% - 2rem); }
   .research-project-group--additional .research-project-meta { margin-bottom: 0.9rem; }
-  .research-project-group--additional .research-project-summary { margin-bottom: 0.9rem; }
+  .research-project-group--additional .research-project-summary { font-size: 0.95rem; line-height: 1.7; margin-bottom: 0.9rem; }
   @media (max-width: 767px) {
-    .research-project-card, .research-project-group--featured .research-project-card { grid-template-columns: minmax(0, 1fr); }
+    .research-project-card, .research-project-group--featured .research-project-card, .research-project-group--additional .research-project-card { grid-template-columns: minmax(0, 1fr); }
     .research-project-visual, .research-project-group--additional .research-project-visual { min-height: 0; padding: 1.25rem 0; border-right: 0; border-bottom: 1px solid var(--global-divider-color); }
     .research-figure-placeholder { min-height: 140px; }
-    .research-project-content, .research-project-group--additional .research-project-content { padding: 1.25rem; }
+    .research-project-content { padding: 1.25rem; }
+    .research-project-group--additional .research-project-content { padding: 1rem 1.25rem; }
     .research-project-content h3 { font-size: 1.2rem; }
     .research-project-group--featured .research-project-content h3 { font-size: 1.3rem; }
     .research-project-group--featured .research-figure-placeholder { min-height: 160px; }
@@ -78,12 +73,15 @@ _styles: |
       <div class="research-project-content">
         <h3 id="{{ project.id }}-title">{{ project.title }}</h3>
         <p class="research-project-meta">{{ project.period | default: 'Period / project metadata to be added' }}</p>
-        <dl class="research-project-summary">
-          <dt>Scientific problem</dt>
-          <dd{% if project.scientific_problem == '' %} class="placeholder-copy"{% endif %}>{{ project.scientific_problem | default: 'Brief scientific problem statement to be added.' }}</dd>
-          <dt>My contribution</dt>
-          <dd{% if project.contribution == '' %} class="placeholder-copy"{% endif %}>{{ project.contribution | default: 'Brief description of my contribution to be added.' }}</dd>
-        </dl>
+        <p class="research-project-summary">
+          {% if project.description != '' %}
+          {{ project.description }}
+          {% elsif group == 'featured' %}
+          A concise research overview will be added here. This paragraph will describe the project’s scientific context, approach, and significance.
+          {% else %}
+          A brief overview of this research project will be added here.
+          {% endif %}
+        </p>
         <ul class="research-project-links" aria-label="{% if project.links.size > 0 %}Project links{% else %}Placeholders for future project links{% endif %}">
           {% if project.links.size > 0 %}
           {% for link in project.links %}
