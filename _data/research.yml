@@ -4,15 +4,25 @@ projects:
   - title: Surface Segregation of Nanoparticles
     id: surface-segregation-of-nanoparticles
     group: featured
+    detail_background: ""
+    detail_approach: ""
+    detail_significance: ""
+    detail_figures: []
     period: ""
     image: ""
     image_alt: ""
     description: >-
       Investigated the interfacial driving forces governing spontaneous surface segregation of surface-modified nanoparticles in polymer thin films. Designed nanoparticle surface-modification strategies and quantified through-thickness particle distributions to establish relationships between segregation behavior and mechanical and optical performance.
-    links: []
+    links:
+      - label: Patent
+        url: ""
   - title: Shear-Directed Nanorod Alignment
     id: shear-directed-nanorod-alignment
     group: featured
+    detail_background: ""
+    detail_approach: ""
+    detail_significance: ""
+    detail_figures: []
     period: ""
     image: ""
     image_alt: ""
@@ -21,19 +31,31 @@ projects:
   - title: Fuel-Cell Adhesive Durability
     id: fuel-cell-adhesive-durability
     group: featured
+    detail_background: ""
+    detail_approach: ""
+    detail_significance: ""
+    detail_figures: []
     period: ""
     image: ""
     image_alt: ""
     description: ""
-    links: []
+    links:
+      - label: Manuscript
+        url: ""
   - title: Dual-Network Acrylic Adhesives
     id: dual-network-acrylic-adhesives
     group: featured
+    detail_background: ""
+    detail_approach: ""
+    detail_significance: ""
+    detail_figures: []
     period: ""
     image: ""
     image_alt: ""
     description: ""
-    links: []
+    links:
+      - label: Paper
+        url: ""
   - title: Stretchable Optical Films / NRF Project
     id: stretchable-optical-films-nrf-project
     group: additional
