@@ -31,17 +31,27 @@ cv:
     PUBLICATIONS:
       - bullet: >-
           <strong>HR. Park</strong>, JW. Kim and JH. Lee*, Development of Impact-Resistant Pressure-Sensitive Adhesive Based on Thermally Assisted Surface Enrichment of Modified Silica Nanoparticles. Manuscript in preparation.
+        year: 2026
       - bullet: >-
           <strong>HR. Park</strong><sup><strong>†</strong></sup>, JW. Kim<sup>†</sup>, JI. An<sup>†</sup>, WJ. Choi, YE. Yun and JH. Lee*, A Synergistic Dual-Network Strategy for Highly Recoverable and Optically Transparent Acrylic Adhesive Films. ACS Applied Polymer Materials, Under Review.
+        year: 2026
+        impact_factor: "4.8"
+        jcr_top: "22.9"
       - bullet: >-
           JW. Kim<sup><strong>†</strong></sup>, <strong>HR. Park</strong><sup><strong>†</strong></sup>, WJ. Choi, YE. Yun and JH. Lee*, Deciphering the long-term failure mechanism of the sealing framework in a proton exchange membrane fuel cell by assessing multi-stress degradation under accelerated simulated operating conditions. <em>Chemical Engineering Journal</em>, 2026, 538, 177005. <a href="https://doi.org/10.1016/j.cej.2026.177005">10.1016/j.cej.2026.177005</a>
         year: 2026
+        impact_factor: "13.2"
+        jcr_top: "3"
       - bullet: >-
           JW. Kim<sup><strong>†</strong></sup>, DH. Kim<sup><strong>†</strong></sup>, <strong>HR. Park</strong>, GJ. Shin and JH. Lee*, Temperature-mediated controllable colorless polymer nanocomposite adhesives with remarkable optical transparency using sodium bicarbonate-embedded thermosensitive nanoparticles. <em>Chemical Engineering Journal</em>, 2025, 516, 164090. <a href="https://doi.org/10.1016/j.cej.2025.164090">10.1016/j.cej.2025.164090</a>
         year: 2025
+        impact_factor: "13.4"
+        jcr_top: "3.1"
       - bullet: >-
           SY. Yang<sup><strong>†</strong></sup>, JW. Kim<sup><strong>†</strong></sup>, <strong>HR. Park</strong>, GJ. Shin and JH. Lee*, Highly stretchable and transparent hybrid double-network acrylic nanocomposite adhesive based on the synergy between stretchable silica nanoparticles and multifunctional dual crosslinkers. <em>European Polymer Journal</em>, 2025, 235, 114071. <a href="https://doi.org/10.1016/j.eurpolymj.2025.114071">10.1016/j.eurpolymj.2025.114071</a>
         year: 2025
+        impact_factor: "5.8"
+        jcr_top: "8.9"
     GRANTS & FELLOWSHIPS:
       - date_range: Sep 2025 – Aug 2026
         title: Master’s Research Grant, National Research Foundation of Korea (NRF)
