@@ -7,28 +7,121 @@ subtitle: Master's Student in Chemical Engineering, Soongsil University
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
     <p>Department of Chemical Engineering</p>
     <p>Soongsil University</p>
     <p>Seoul, Republic of Korea</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Master's student in the Department of Chemical Engineering at Soongsil University.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<style>
+  .research details {
+    margin: 0.6rem 0;
+    border: 1px solid var(--global-divider-color);
+    border-left: 4px solid var(--global-theme-color);
+    border-radius: 6px;
+  }
+  .research summary {
+    position: relative;
+    padding: 0.6rem 6rem 0.6rem 0.9rem;
+    cursor: pointer;
+    list-style: none;
+  }
+  .research summary::-webkit-details-marker {
+    display: none;
+  }
+  .research summary::before {
+    content: "▸";
+    display: inline-block;
+    margin-right: 0.5rem;
+    color: var(--global-theme-color);
+    transition: transform 0.2s;
+  }
+  .research details[open] summary::before {
+    transform: rotate(90deg);
+  }
+  .research summary::after {
+    content: "Read more";
+    position: absolute;
+    top: 0.75rem;
+    right: 0.9rem;
+    font-size: 0.85em;
+    color: var(--global-theme-color);
+  }
+  .research details[open] summary::after {
+    content: "Show less";
+  }
+  .research summary .sub {
+    display: block;
+    padding-left: 1.1rem;
+    color: var(--global-text-color-light);
+  }
+  .post > article > h2 {
+    margin-top: 2.5rem;
+  }
+  .research summary:hover {
+    background-color: var(--global-divider-color);
+  }
+  .research details > p {
+    padding: 0 0.9rem 0.6rem;
+    margin: 0;
+  }
+  @media (min-width: 576px) {
+    .post > article > .profile {
+      width: 26.25%;
+    }
+    .post > article > *:not(.profile) {
+      margin-right: calc(26.25% + 3rem);
+    }
+    .post > article > h2:has(+ .publications),
+    .post > article > .publications {
+      margin-right: 0;
+    }
+  }
+  .profile .more-info {
+    font-size: 0.85rem;
+  }
+  .post > .post-header {
+    padding-bottom: 0.75rem;
+    margin-bottom: 1.25rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+  .post > article > p:first-of-type {
+    margin-top: 0;
+  }
+  .publications .abbr {
+    display: none;
+  }
+  .publications .col-sm-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+</style>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<!-- Research directions: copy one <details> block per topic.
+<div class="research" markdown="1">
+
+<details markdown="1">
+<summary><b>Topic</b><span class="sub">one-line summary</span></summary>
+
+Description.
+
+</details>
+
+</div>
+-->
