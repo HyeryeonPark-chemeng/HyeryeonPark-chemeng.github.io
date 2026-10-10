@@ -11,15 +11,18 @@ _styles: |
   .cv .cv-contact p { margin-bottom: 0; }
   .cv .cv-entry-heading { display: flex; justify-content: space-between; gap: 1rem; }
   .cv .cv-entry-heading .cv-location { flex-shrink: 0; }
-  .cv .cv-date { display: block; color: var(--global-text-color); font-size: 0.85rem; font-weight: 400; line-height: 1.5; }
+  .cv .cv-entries { display: grid; gap: 1.5rem; }
+  .cv .cv-entry { display: grid; grid-template-columns: minmax(0, 11rem) minmax(0, 1fr); column-gap: 1.5rem; align-items: start; }
+  .cv .cv-entry-title { margin: 0; font-size: 1rem; line-height: 1.5; }
+  .cv .cv-date { display: block; color: var(--global-text-color); font-size: 1rem; font-weight: 400; line-height: 1.5; }
   .cv .cv-subtitle { font-size: 0.95rem; }
   .cv .cv-subtitle strong, .cv .cv-subtitle strong em { font-weight: 700; }
   .cv .cv-bullets { padding-left: 1.25rem; }
   .cv .cv-bullets li + li { margin-top: 0.6rem; }
   .cv .cv-entry-details .items { margin-top: 0.5rem; }
   @media (max-width: 575px) {
+    .cv .cv-entry { grid-template-columns: minmax(0, 3fr) minmax(0, 9fr); column-gap: 0.75rem; }
     .cv .cv-entry-heading { flex-wrap: wrap; gap: 0.25rem; }
-    .cv .date-column { text-align: left !important; margin-bottom: 0.75rem; }
   }
 ---
 
@@ -47,22 +50,21 @@ _styles: |
       {% endfor %}
     </ul>
     {% else %}
-    <ul class="card-text font-weight-light list-group list-group-flush">
+    <div class="card-text font-weight-light cv-entries">
       {% for entry in section[1] %}
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-xs-3 col-sm-3 col-md-3 date-column">
+        <div class="cv-entry">
+          <div class="cv-entry-date">
             <span class="cv-date">{{ entry.date_range }}</span>
           </div>
-          <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0 cv-entry-details">
-            <div class="cv-entry-heading ml-1 ml-md-4">
-              <h6 class="title font-weight-bold"><strong>{{ entry.title }}</strong></h6>
+          <div class="cv-entry-details">
+            <div class="cv-entry-heading">
+              <h6 class="cv-entry-title font-weight-bold"><strong>{{ entry.title }}</strong></h6>
               {% if entry.location and entry.location_on_subtitle != true %}
               <span class="cv-location"><strong>{{ entry.location }}</strong></span>
               {% endif %}
             </div>
             {% if entry.subtitle %}
-            <div class="cv-entry-heading ml-1 ml-md-4">
+            <div class="cv-entry-heading">
               <h6 class="cv-subtitle">{% if entry.subtitle_italic %}<strong><em>{{ entry.subtitle }}</em></strong>{% else %}{{ entry.subtitle }}{% endif %}</h6>
               {% if entry.location_on_subtitle %}
               <span class="cv-location"><strong>{{ entry.location }}</strong></span>
@@ -76,9 +78,8 @@ _styles: |
             </ul>
           </div>
         </div>
-      </li>
       {% endfor %}
-    </ul>
+    </div>
     {% endif %}
   </section>
   {% endfor %}
