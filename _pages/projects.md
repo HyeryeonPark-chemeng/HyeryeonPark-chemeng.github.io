@@ -146,4 +146,4 @@ _styles: |
   {% endfor %}
 </div>
 
-<script src="{{ '/assets/js/research-details.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/research-details.js' | relative_url | bust_file_cache }}" defer></script>
