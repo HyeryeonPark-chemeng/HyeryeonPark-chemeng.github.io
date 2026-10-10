@@ -1,0 +1,57 @@
+# Replace the empty fields as project content becomes available.
+# Link items may use: label: Paper, url: https://...
+projects:
+  - title: Surface Segregation of Nanoparticles
+    id: surface-segregation-of-nanoparticles
+    group: featured
+    period: ""
+    image: ""
+    image_alt: ""
+    scientific_problem: ""
+    contribution: ""
+    links: []
+  - title: Shear-Directed Nanorod Alignment
+    id: shear-directed-nanorod-alignment
+    group: featured
+    period: ""
+    image: ""
+    image_alt: ""
+    scientific_problem: ""
+    contribution: ""
+    links: []
+  - title: Fuel-Cell Adhesive Durability
+    id: fuel-cell-adhesive-durability
+    group: featured
+    period: ""
+    image: ""
+    image_alt: ""
+    scientific_problem: ""
+    contribution: ""
+    links: []
+  - title: Dual-Network Acrylic Adhesives
+    id: dual-network-acrylic-adhesives
+    group: featured
+    period: ""
+    image: ""
+    image_alt: ""
+    scientific_problem: ""
+    contribution: ""
+    links: []
+  - title: Stretchable Optical Films / NRF Project
+    id: stretchable-optical-films-nrf-project
+    group: additional
+    period: ""
+    image: ""
+    image_alt: ""
+    scientific_problem: ""
+    contribution: ""
+    links: []
+  - title: Magnetic-Field-Directed Particle Patterning
+    id: magnetic-field-directed-particle-patterning
+    group: additional
+    period: ""
+    image: ""
+    image_alt: ""
+    scientific_problem: ""
+    contribution: ""
+    links: []

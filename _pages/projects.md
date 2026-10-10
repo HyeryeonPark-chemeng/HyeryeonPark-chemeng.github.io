@@ -2,66 +2,92 @@
 layout: page
 title: Research
 permalink: /projects/
-description: Research projects.
+description: Selected research projects highlighting my work in particle organization, interfacial mechanics, and processing–structure–property relationships in polymeric materials.
 nav: true
 nav_order: 2
-display_categories: []
-horizontal: false
 _styles: |
   .post-header .post-title { font-weight: 700; }
+  .post-header .post-description { max-width: 78ch; line-height: 1.7; margin-top: 0.75rem; }
+  .research-projects { margin-top: 2.5rem; }
+  .research-project-group + .research-project-group { margin-top: 3rem; }
+  .research-project-group > h2 { font-size: 1.65rem; font-weight: 600; line-height: 1.35; margin-bottom: 1.5rem; }
+  .research-project-card { scroll-margin-top: 5rem; display: grid; grid-template-columns: 32% minmax(0, 1fr); overflow: hidden; border: 1px solid var(--global-divider-color); border-left: 2px solid var(--global-theme-color); border-radius: 3px; background: color-mix(in srgb, var(--global-text-color) 1.5%, var(--global-bg-color)); margin-bottom: 1.5rem; }
+  .research-project-visual { display: flex; align-items: center; justify-content: center; min-height: 240px; margin: 0; border-right: 1px solid var(--global-divider-color); background: color-mix(in srgb, var(--global-text-color) 3%, var(--global-bg-color)); }
+  .research-project-visual img { display: block; width: 100%; height: auto; object-fit: contain; }
+  .research-figure-placeholder { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.5rem; width: calc(100% - 3rem); min-height: 150px; padding: 1rem; border: 1px dashed var(--global-divider-color); text-align: center; }
+  .research-figure-placeholder span { font-size: 0.95rem; color: color-mix(in srgb, var(--global-text-color) 65%, var(--global-bg-color)); }
+  .research-figure-placeholder small { font-size: 0.8rem; color: color-mix(in srgb, var(--global-text-color) 55%, var(--global-bg-color)); }
+  .research-project-content { display: flex; flex-direction: column; padding: 1.5rem 1.75rem; min-width: 0; }
+  .research-project-content h3 { font-size: 1.3rem; font-weight: 700; line-height: 1.4; margin: 0 0 0.45rem; }
+  .research-project-meta { font-size: 0.85rem; line-height: 1.5; margin: 0 0 1.25rem; color: color-mix(in srgb, var(--global-text-color) 60%, var(--global-bg-color)); }
+  .research-project-summary { margin: 0 0 1.25rem; }
+  .research-project-summary dt { font-size: 0.95rem; font-weight: 600; line-height: 1.5; margin-bottom: 0.3rem; }
+  .research-project-summary dd { font-size: 0.95rem; line-height: 1.7; margin: 0 0 0.8rem; }
+  .research-project-summary dd:last-child { margin-bottom: 0; }
+  .research-project-summary .placeholder-copy { color: color-mix(in srgb, var(--global-text-color) 60%, var(--global-bg-color)); }
+  .research-project-links { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; list-style: none; margin: auto 0 0; padding: 0.8rem 0 0; border-top: 1px solid var(--global-divider-color); font-size: 0.85rem; }
+  .research-project-links .placeholder-link { color: color-mix(in srgb, var(--global-text-color) 50%, var(--global-bg-color)); }
+  .research-project-links a { color: var(--global-text-color); text-decoration: underline; text-underline-offset: 0.2em; }
+  .research-project-links a:hover { color: var(--global-theme-color); }
+  .research-project-links a:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
+  .research-project-group--additional > h2 { font-size: 1.4rem; }
+  .research-project-group--additional .research-project-content { padding: 1.2rem 1.5rem; }
+  .research-project-group--additional .research-project-content h3 { font-size: 1.15rem; }
+  .research-project-group--additional .research-project-visual { min-height: 190px; }
+  .research-project-group--additional .research-figure-placeholder { min-height: 120px; }
+  .research-project-group--additional .research-project-meta { margin-bottom: 0.9rem; }
+  .research-project-group--additional .research-project-summary { margin-bottom: 0.9rem; }
+  @media (max-width: 767px) {
+    .research-project-card { grid-template-columns: minmax(0, 1fr); }
+    .research-project-visual, .research-project-group--additional .research-project-visual { min-height: 0; padding: 1.25rem 0; border-right: 0; border-bottom: 1px solid var(--global-divider-color); }
+    .research-figure-placeholder { min-height: 140px; }
+    .research-project-content, .research-project-group--additional .research-project-content { padding: 1.25rem; }
+    .research-project-content h3 { font-size: 1.2rem; }
+  }
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
+<div class="research-projects">
+  {% assign groups = 'featured,additional' | split: ',' %}
+  {% for group in groups %}
+  <section class="research-project-group research-project-group--{{ group }}" aria-labelledby="{{ group }}-research-heading">
+    <h2 id="{{ group }}-research-heading">{% if group == 'featured' %}Featured Research{% else %}Additional Research Projects{% endif %}</h2>
+    {% assign projects = site.data.research.projects | where: 'group', group %}
+    {% for project in projects %}
+    <article class="research-project-card" id="{{ project.id }}" aria-labelledby="{{ project.id }}-title">
+      <figure class="research-project-visual">
+        {% if project.image != '' %}
+        <img src="{{ project.image | relative_url }}" alt="{{ project.image_alt | escape }}" loading="lazy">
+        {% else %}
+        <div class="research-figure-placeholder" role="img" aria-label="Scientific figure placeholder for {{ project.title | escape }}">
+          <span>Representative figure</span>
+          <small>Image placeholder</small>
+        </div>
+        {% endif %}
+      </figure>
+      <div class="research-project-content">
+        <h3 id="{{ project.id }}-title">{{ project.title }}</h3>
+        <p class="research-project-meta">{{ project.period | default: 'Period / project metadata to be added' }}</p>
+        <dl class="research-project-summary">
+          <dt>Scientific problem</dt>
+          <dd{% if project.scientific_problem == '' %} class="placeholder-copy"{% endif %}>{{ project.scientific_problem | default: 'Brief scientific problem statement to be added.' }}</dd>
+          <dt>My contribution</dt>
+          <dd{% if project.contribution == '' %} class="placeholder-copy"{% endif %}>{{ project.contribution | default: 'Brief description of my contribution to be added.' }}</dd>
+        </dl>
+        <ul class="research-project-links" aria-label="{% if project.links.size > 0 %}Project links{% else %}Placeholders for future project links{% endif %}">
+          {% if project.links.size > 0 %}
+          {% for link in project.links %}
+          <li><a href="{{ link.url | relative_url }}">{{ link.label }}</a></li>
+          {% endfor %}
+          {% else %}
+          {% assign link_labels = 'Paper,Patent,Manuscript,More details' | split: ',' %}
+          {% for label in link_labels %}
+          <li><span class="placeholder-link" aria-disabled="true">{{ label }}</span></li>
+          {% endfor %}
+          {% endif %}
+        </ul>
+      </div>
+    </article>
     {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
+  </section>
   {% endfor %}
-
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
 </div>
