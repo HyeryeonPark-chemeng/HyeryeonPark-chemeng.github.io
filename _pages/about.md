@@ -35,16 +35,16 @@ research_project_links:
 ---
 
 <style>
-.about-introduction { max-width: 68ch; line-height: 1.75; }
+.about-introduction { max-width: 68ch; line-height: 1.85; }
 .about-introduction p { margin: 0 0 1.25rem; }
 .about-research { clear: both; padding-top: 1.5rem; width: 100%; }
 .about-research > h2 { font-size: 1.75rem; font-weight: 600; line-height: 1.3; margin: 0 0 0.5rem; }
 .about-research > .research-introduction { font-size: 0.98rem; line-height: 1.6; color: color-mix(in srgb, var(--global-text-color) 65%, var(--global-bg-color)); margin: 0 0 1.75rem; }
 .about-research-area { display: flex; flex-direction: column; box-sizing: border-box; width: 100%; border: 1px solid var(--global-divider-color); border-left: 2px solid var(--global-theme-color); border-radius: 3px; background: color-mix(in srgb, var(--global-text-color) 1.5%, var(--global-bg-color)); padding: 1.35rem 2rem; margin-bottom: 1.5rem; }
-.about-research-area h3 { font-size: 1.35rem; font-weight: 700; line-height: 1.4; margin: 0 0 1rem; }
+.about-research-area h3 { font-size: 1.35rem; font-weight: 700; line-height: 1.45; margin: 0 0 1rem; }
 .about-research-area > p { font-size: 1rem; line-height: 1.8; margin: 0 0 1rem; max-width: 78ch; }
-.about-research-area > .related-projects { font-size: 0.92rem; line-height: 1.5; margin-top: auto; margin-bottom: 0; padding-top: 0.25rem; }
-.about-research-area .related-projects a { color: var(--global-text-color); text-decoration: underline; text-decoration-color: var(--global-divider-color); text-underline-offset: 0.2em; }
+.about-research-area > .related-projects { font-size: 0.95rem; line-height: 1.5; margin-top: auto; margin-bottom: 0; padding-top: 0.25rem; }
+.about-research-area .related-projects a { color: var(--global-text-color); text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--global-text-color) 40%, var(--global-bg-color)); text-underline-offset: 0.2em; }
 .about-research-area .related-projects a:hover { color: var(--global-theme-color); text-decoration-color: currentColor; text-decoration-thickness: 2px; }
 .about-research-area .related-projects a em { color: inherit; }
 .about-research-area .related-projects a:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
