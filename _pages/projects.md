@@ -1,12 +1,14 @@
 ---
 layout: page
-title: Projects
+title: Research
 permalink: /projects/
 description: Research projects.
 nav: true
 nav_order: 2
 display_categories: []
 horizontal: false
+_styles: |
+  .post-header .post-title { font-weight: 700; }
 ---
 
 <!-- pages/projects.md -->
