@@ -37,13 +37,16 @@ research_project_links:
 <style>
 .about-introduction { max-width: 68ch; line-height: 1.75; }
 .about-introduction p { margin: 0 0 1.25rem; }
-.about-research { clear: both; padding-top: 1rem; max-width: 78ch; }
-.about-research > h2 { font-size: 1.25rem; font-weight: 500; line-height: 1.5; margin: 0 0 1.75rem; }
-.about-research-area { border-left: 3px solid var(--global-theme-color); padding-left: 1.25rem; margin-bottom: 2rem; }
-.about-research-area h3 { font-size: 1.15rem; font-weight: 700; line-height: 1.5; margin: 0 0 0.65rem; }
-.about-research-area p { line-height: 1.7; margin: 0 0 0.75rem; }
-.about-research-area .related-projects { font-size: 0.95rem; margin-bottom: 0; }
-.about-research-area span.future-project-link { color: var(--global-text-color-light); }
+.about-research { clear: both; padding-top: 1.5rem; width: 100%; }
+.about-research > h2 { font-size: 1.75rem; font-weight: 600; line-height: 1.3; margin: 0 0 0.5rem; }
+.about-research > .research-introduction { font-size: 0.98rem; line-height: 1.6; color: var(--global-text-color-light); margin: 0 0 1.75rem; }
+.about-research-area { display: flex; flex-direction: column; box-sizing: border-box; width: 100%; border: 1px solid var(--global-divider-color); border-left: 2px solid var(--global-theme-color); border-radius: 3px; background: color-mix(in srgb, var(--global-text-color) 1.5%, var(--global-bg-color)); padding: 1.75rem 2rem; margin-bottom: 1.5rem; }
+.about-research-area h3 { font-size: 1.35rem; font-weight: 700; line-height: 1.4; margin: 0 0 1rem; }
+.about-research-area > p { font-size: 1rem; line-height: 1.8; margin: 0 0 1rem; max-width: 78ch; }
+.about-research-area > .related-projects { font-size: 0.92rem; line-height: 1.5; margin-top: auto; margin-bottom: 0; padding-top: 0.25rem; }
+.about-research-area .related-projects a { color: var(--global-text-color); text-decoration: underline; text-decoration-color: var(--global-divider-color); text-underline-offset: 0.2em; }
+.about-research-area .related-projects a:hover { text-decoration-color: currentColor; }
+.about-research-area .related-projects a:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
 .profile .more-info { font-size: 0.85rem; }
 .post > .post-header { padding-bottom: 0.75rem; margin-bottom: 1.25rem; border-bottom: 1px solid var(--global-divider-color); }
 @media (min-width: 576px) {
@@ -51,8 +54,9 @@ research_project_links:
   .about-introduction { margin-right: calc(26.25% + 3rem); }
 }
 @media (max-width: 575px) {
-  .about-research-area { padding-left: 1rem; }
-  .about-research { padding-top: 0.5rem; }
+  .about-research { padding-top: 1rem; }
+  .about-research-area { padding: 1.25rem; }
+  .about-research-area h3 { font-size: 1.2rem; }
 }
 </style>
 
@@ -65,7 +69,8 @@ My work examines how interfacial phenomena and processing conditions govern stru
 </div>
 
 <div class="about-research">
-  <h2>My research interests span three closely connected areas:</h2>
+  <h2>Research Interests</h2>
+  <p class="research-introduction">My research interests span three closely connected areas.</p>
 
   <section class="about-research-area" aria-labelledby="assembly-heading">
     <h3 id="assembly-heading">Directed particle assembly and patterning in polymer thin films</h3>
@@ -74,7 +79,7 @@ My work examines how interfacial phenomena and processing conditions govern stru
       {% if page.research_project_links.enabled %}
       <a href="{{ page.research_project_links.assembly | relative_url }}"><em>Related research projects →</em></a>
       {% else %}
-      <span class="future-project-link" data-future-href="{{ page.research_project_links.assembly | relative_url }}"><em>Related research projects →</em></span>
+      <a class="future-project-link" href="{{ '/projects/' | relative_url }}" data-future-href="{{ page.research_project_links.assembly | relative_url }}"><em>Related research projects →</em></a>
       {% endif %}
     </p>
   </section>
@@ -86,7 +91,7 @@ My work examines how interfacial phenomena and processing conditions govern stru
       {% if page.research_project_links.enabled %}
       <a href="{{ page.research_project_links.reliability | relative_url }}"><em>Related research projects →</em></a>
       {% else %}
-      <span class="future-project-link" data-future-href="{{ page.research_project_links.reliability | relative_url }}"><em>Related research projects →</em></span>
+      <a class="future-project-link" href="{{ '/projects/' | relative_url }}" data-future-href="{{ page.research_project_links.reliability | relative_url }}"><em>Related research projects →</em></a>
       {% endif %}
     </p>
   </section>
@@ -98,7 +103,7 @@ My work examines how interfacial phenomena and processing conditions govern stru
       {% if page.research_project_links.enabled %}
       <a href="{{ page.research_project_links.processing | relative_url }}"><em>Related research projects →</em></a>
       {% else %}
-      <span class="future-project-link" data-future-href="{{ page.research_project_links.processing | relative_url }}"><em>Related research projects →</em></span>
+      <a class="future-project-link" href="{{ '/projects/' | relative_url }}" data-future-href="{{ page.research_project_links.processing | relative_url }}"><em>Related research projects →</em></a>
       {% endif %}
     </p>
   </section>
