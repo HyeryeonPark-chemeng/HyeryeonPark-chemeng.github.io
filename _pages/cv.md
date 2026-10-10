@@ -13,13 +13,15 @@ _styles: |
   .cv .cv-entry-heading .cv-location { flex-shrink: 0; }
   .cv .cv-entries { display: grid; gap: 1.5rem; }
   .cv .cv-entry { display: grid; grid-template-columns: minmax(0, 11rem) minmax(0, 1fr); column-gap: 1.5rem; align-items: start; }
-  .cv .cv-entry-title { margin: 0; font-size: 1rem; line-height: 1.5; }
-  .cv .cv-date { display: block; color: var(--global-text-color); font-size: 1rem; font-weight: 400; line-height: 1.5; }
-  .cv .cv-subtitle { font-size: 0.95rem; }
+  .cv .cv-entry-details { display: flex; flex-direction: column; gap: 0.2rem; }
+  .cv .cv-entry-title { margin: 0; font-size: 1rem; line-height: 1.3; }
+  .cv .cv-date { display: block; color: var(--global-text-color); font-size: 1rem; font-weight: 400; line-height: 1.3; }
+  .cv .cv-subtitle { margin: 0; font-size: 0.95rem; line-height: 1.3; }
   .cv .cv-subtitle strong, .cv .cv-subtitle strong em { font-weight: 700; }
   .cv .cv-bullets { padding-left: 1.25rem; }
   .cv .cv-bullets li + li { margin-top: 0.6rem; }
-  .cv .cv-entry-details .items { margin-top: 0.5rem; }
+  .cv .cv-entry-details .items { margin: 0; padding-left: 1.25rem; }
+  .cv .cv-entry-details .items li { margin: 0; line-height: 1.3; }
   @media (max-width: 575px) {
     .cv .cv-entry { grid-template-columns: minmax(0, 3fr) minmax(0, 9fr); column-gap: 0.75rem; }
     .cv .cv-entry-heading { flex-wrap: wrap; gap: 0.25rem; }
@@ -30,13 +32,12 @@ _styles: |
 
 <div class="cv">
   <div class="card mt-3 p-3 cv-contact">
-    <a class="float-right" href="{{ '/assets/pdf/hyeryeon-park-cv.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Download CV PDF" style="align-self: flex-end">
+    <a class="float-right" href="{{ '/assets/pdf/HyeRyeon%20Park_2026%20ver.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Download CV PDF" style="align-self: flex-end">
       <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
     </a>
     <h3 class="card-title font-weight-medium" data-toc-skip><strong>{{ cv.name }}</strong></h3>
     <p><a href="mailto:{{ cv.email }}">{{ cv.email }}</a> | {{ cv.phone }}</p>
     <p>{{ cv.location }}</p>
-    <p>Personal website:</p>
   </div>
 
 {% for section in cv.sections %}
