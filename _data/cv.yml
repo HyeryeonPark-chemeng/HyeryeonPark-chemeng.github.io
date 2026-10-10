@@ -34,11 +34,11 @@ cv:
       - bullet: >-
           <strong>HR. Park</strong><sup><strong>†</strong></sup>, JW. Kim<sup>†</sup>, JI. An<sup>†</sup>, WJ. Choi, YE. Yun and JH. Lee*, A Synergistic Dual-Network Strategy for Highly Recoverable and Optically Transparent Acrylic Adhesive Films. ACS Applied Polymer Materials, Under Review.
       - bullet: >-
-          JW. Kim<sup><strong>†</strong></sup>, <strong>HR. Park</strong><sup><strong>†</strong></sup>, WJ. Choi, YE. Yun and JH. Lee*, Deciphering the long-term failure mechanism of the sealing framework in a proton exchange membrane fuel cell by assessing multi-stress degradation under accelerated simulated operating conditions. Chemical Engineering Journal, 2026, 538, 177005. <a href="https://doi.org/10.1016/j.cej.2026.177005">10.1016/j.cej.2026.177005</a>
+          JW. Kim<sup><strong>†</strong></sup>, <strong>HR. Park</strong><sup><strong>†</strong></sup>, WJ. Choi, YE. Yun and JH. Lee*, Deciphering the long-term failure mechanism of the sealing framework in a proton exchange membrane fuel cell by assessing multi-stress degradation under accelerated simulated operating conditions. <em>Chemical Engineering Journal</em>, 2026, 538, 177005. <a href="https://doi.org/10.1016/j.cej.2026.177005">10.1016/j.cej.2026.177005</a>
       - bullet: >-
-          JW. Kim<sup><strong>†</strong></sup>, DH. Kim<sup><strong>†</strong></sup>, <strong>HR. Park</strong>, GJ. Shin and JH. Lee*, Temperature-mediated controllable colorless polymer nanocomposite adhesives with remarkable optical transparency using sodium bicarbonate-embedded thermosensitive nanoparticles. Chemical Engineering Journal, 2025, 516, 164090. <a href="https://doi.org/10.1016/j.cej.2025.164090">10.1016/j.cej.2025.164090</a>
+          JW. Kim<sup><strong>†</strong></sup>, DH. Kim<sup><strong>†</strong></sup>, <strong>HR. Park</strong>, GJ. Shin and JH. Lee*, Temperature-mediated controllable colorless polymer nanocomposite adhesives with remarkable optical transparency using sodium bicarbonate-embedded thermosensitive nanoparticles. <em>Chemical Engineering Journal</em>, 2025, 516, 164090. <a href="https://doi.org/10.1016/j.cej.2025.164090">10.1016/j.cej.2025.164090</a>
       - bullet: >-
-          SY. Yang<sup><strong>†</strong></sup>, JW. Kim<sup><strong>†</strong></sup>, <strong>HR. Park</strong>, GJ. Shin and JH. Lee*, Highly stretchable and transparent hybrid double-network acrylic nanocomposite adhesive based on the synergy between stretchable silica nanoparticles and multifunctional dual crosslinkers. European Polymer Journal, 2025, 235, 114071. <a href="https://doi.org/10.1016/j.eurpolymj.2025.114071">10.1016/j.eurpolymj.2025.114071</a>
+          SY. Yang<sup><strong>†</strong></sup>, JW. Kim<sup><strong>†</strong></sup>, <strong>HR. Park</strong>, GJ. Shin and JH. Lee*, Highly stretchable and transparent hybrid double-network acrylic nanocomposite adhesive based on the synergy between stretchable silica nanoparticles and multifunctional dual crosslinkers. <em>European Polymer Journal</em>, 2025, 235, 114071. <a href="https://doi.org/10.1016/j.eurpolymj.2025.114071">10.1016/j.eurpolymj.2025.114071</a>
     GRANTS & FELLOWSHIPS:
       - date_range: Sep 2025 – Aug 2026
         title: Master’s Research Grant, National Research Foundation of Korea (NRF)
@@ -82,7 +82,7 @@ cv:
       - date_range: Jun 2024 – May 2025
         title: Development of New Impact-Resistant Coating Materials for Displays
         subtitle: Sponsored by Nissan Chemical Korea
-        subtitle_italic: false
+        subtitle_italic: true
         highlights:
           - Designed and synthesized surface-functionalized nanoparticles and optimized nanocomposite resin formulations, achieving a 20% improvement in impact resistance for foldable-display optically clear adhesives (OCAs).
           - Established structure–property relationships through morphological, chemical, mechanical, optical, and thermal characterization; research outcomes contributed to a patent application and manuscript preparation.

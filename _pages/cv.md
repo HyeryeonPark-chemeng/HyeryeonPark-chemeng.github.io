@@ -11,7 +11,7 @@ _styles: |
   .cv .cv-contact p { margin-bottom: 0; }
   .cv .cv-entry-heading { display: flex; justify-content: space-between; gap: 1rem; }
   .cv .cv-entry-heading .cv-location { flex-shrink: 0; }
-  .cv .cv-date { display: inline-block; min-width: 75px; white-space: normal; line-height: 1.5; text-transform: none; }
+  .cv .cv-date { display: block; color: var(--global-text-color); font-size: 0.85rem; font-weight: 400; line-height: 1.5; }
   .cv .cv-subtitle { font-size: 0.95rem; }
   .cv .cv-subtitle strong, .cv .cv-subtitle strong em { font-weight: 700; }
   .cv .cv-bullets { padding-left: 1.25rem; }
@@ -51,10 +51,10 @@ _styles: |
       {% for entry in section[1] %}
       <li class="list-group-item">
         <div class="row">
-          <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
-            <span class="badge font-weight-bold danger-color-dark align-middle cv-date">{{ entry.date_range }}</span>
+          <div class="col-xs-3 col-sm-3 col-md-3 date-column">
+            <span class="cv-date">{{ entry.date_range }}</span>
           </div>
-          <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0 cv-entry-details">
+          <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0 cv-entry-details">
             <div class="cv-entry-heading ml-1 ml-md-4">
               <h6 class="title font-weight-bold"><strong>{{ entry.title }}</strong></h6>
               {% if entry.location and entry.location_on_subtitle != true %}
