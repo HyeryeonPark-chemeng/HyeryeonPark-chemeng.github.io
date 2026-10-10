@@ -5,6 +5,7 @@ title: Publications
 nav: true
 nav_order: 1
 _styles: |
+  .post-header .post-title { font-weight: 700; }
   .post-description:empty { display: none; }
   .publications ul.bibliography { list-style-type: disc; padding-left: 1.25rem; }
   .publications ul.bibliography > li { display: list-item; list-style-type: disc; margin-bottom: 1rem; }
