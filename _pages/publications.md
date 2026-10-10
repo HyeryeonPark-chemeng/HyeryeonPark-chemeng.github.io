@@ -7,7 +7,7 @@ nav_order: 1
 _styles: |
   .post-description:empty { display: none; }
   .publications ul.bibliography { list-style-type: disc; padding-left: 1.25rem; }
-  .publications ul.bibliography > li { display: list-item; list-style-type: disc; }
+  .publications ul.bibliography > li { display: list-item; list-style-type: disc; margin-bottom: 1rem; }
   .publications .bibliography strong { font-weight: 700; }
 ---
 
