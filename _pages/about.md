@@ -36,6 +36,7 @@ research_project_links:
 
 <style>
 .about-introduction { max-width: 68ch; line-height: 1.85; }
+.about-introduction strong { font-weight: 600; }
 .about-introduction p { margin: 0 0 1.25rem; }
 .about-research { clear: both; padding-top: 1.5rem; width: 100%; }
 .about-research > h2 { font-size: 1.75rem; font-weight: 600; line-height: 1.3; margin: 0 0 0.5rem; }
@@ -64,9 +65,9 @@ research_project_links:
 
 <div class="about-introduction" markdown="1">
 
-I am a master’s student in Chemical Engineering at Soongsil University. My research centers on polymeric soft materials, nanocomposites, and functional thin films.
+I am a master’s student in Chemical Engineering at Soongsil University. My research centers on <strong>polymeric soft materials, nanocomposites, and functional thin films</strong>.
 
-My work examines how interfacial phenomena and processing conditions govern structure formation in polymeric materials. Changes in surface chemistry, flow, and applied fields can alter particle distribution and orientation, while particle–polymer interactions and interfacial mechanics shape the resulting material response. A central theme of my research is understanding how these microscopic and mesoscale processes translate into macroscopic mechanical, optical, and functional properties.
+My work examines how <strong>interfacial phenomena and processing conditions govern structure formation</strong> in polymeric materials. Changes in surface chemistry, flow, and applied fields can alter particle distribution and orientation, while particle–polymer interactions and interfacial mechanics shape the resulting material response. A central theme of my research is understanding how these microscopic and mesoscale processes translate into <strong>macroscopic mechanical, optical, and functional properties</strong>.
 
 </div>
 
