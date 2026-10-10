@@ -7,6 +7,10 @@ nav_order: 3
 toc:
   sidebar: left
 _styles: |
+  #toc-sidebar.toc, #toc-sidebar.toc > .toc-list { height: auto; max-height: none; overflow: visible; }
+  @media (max-height: 600px) {
+    #toc-sidebar.sticky-top { position: static !important; }
+  }
   .cv .cv-contact { text-align: center; }
   .cv .cv-contact p { margin-bottom: 0; }
   .cv .cv-entry-heading { display: flex; justify-content: space-between; gap: 1rem; }
