@@ -1,189 +1,146 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
-
+  name: HyeRyeon Park
+  email: helen1110@soongsil.ac.kr
+  phone: +82 10 9723 8545
+  location: Seoul, South Korea
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+    RESEARCH INTERESTS:
+      - bullet: >-
+          <strong>Polymer nanocomposites and functional soft materials:</strong> viscoelasticity, interfacial adhesion, and long-term reliability under repeated deformation
+      - bullet: >-
+          <strong>Particle assembly and patterning in polymer thin films:</strong> spontaneous surface segregation, shear-flow-induced alignment, and magnetic-field-induced patterning
+      - bullet: >-
+          <strong>Processing–structure–property relationships in polymer films and coatings:</strong> rheology, interfacial mechanics, and optical performance for flexible displays
+    EDUCATION:
+      - date_range: Mar 2025 – Present
+        title: Soongsil University
+        location: Seoul, Korea
+        subtitle: M.S. in Chemical Engineering, Expected Feb 2027
+        subtitle_italic: true
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+          - "GPA: 4.50/4.50"
+          - "Advisor: Jun Hyup Lee"
+      - date_range: Mar 2021 – Feb 2025
+        title: Soongsil University
+        location: Seoul, Korea
+        subtitle: B.S. in Chemical Engineering
+        subtitle_italic: true
         highlights:
-          - Description 1.
-          - Description 2.
-
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+          - "GPA: 3.78/4.50"
+          - Undergraduate Research Assistant, Nano/Micro Engineering Laboratory, Dec 2023 – Feb 2025
+    PUBLICATIONS:
+      - bullet: >-
+          <strong>HR. Park</strong>, JW. Kim and JH. Lee*, Development of Impact-Resistant Pressure-Sensitive Adhesive Based on Thermally Assisted Surface Enrichment of Modified Silica Nanoparticles. Manuscript in preparation.
+      - bullet: >-
+          <strong>HR. Park</strong><sup><strong>†</strong></sup>, JW. Kim<sup>†</sup>, JI. An<sup>†</sup>, WJ. Choi, YE. Yun and JH. Lee*, A Synergistic Dual-Network Strategy for Highly Recoverable and Optically Transparent Acrylic Adhesive Films. ACS Applied Polymer Materials, Under Review.
+      - bullet: >-
+          JW. Kim<sup><strong>†</strong></sup>, <strong>HR. Park</strong><sup><strong>†</strong></sup>, WJ. Choi, YE. Yun and JH. Lee*, Deciphering the long-term failure mechanism of the sealing framework in a proton exchange membrane fuel cell by assessing multi-stress degradation under accelerated simulated operating conditions. Chemical Engineering Journal, 2026, 538, 177005. <a href="https://doi.org/10.1016/j.cej.2026.177005">10.1016/j.cej.2026.177005</a>
+      - bullet: >-
+          JW. Kim<sup><strong>†</strong></sup>, DH. Kim<sup><strong>†</strong></sup>, <strong>HR. Park</strong>, GJ. Shin and JH. Lee*, Temperature-mediated controllable colorless polymer nanocomposite adhesives with remarkable optical transparency using sodium bicarbonate-embedded thermosensitive nanoparticles. Chemical Engineering Journal, 2025, 516, 164090. <a href="https://doi.org/10.1016/j.cej.2025.164090">10.1016/j.cej.2025.164090</a>
+      - bullet: >-
+          SY. Yang<sup><strong>†</strong></sup>, JW. Kim<sup><strong>†</strong></sup>, <strong>HR. Park</strong>, GJ. Shin and JH. Lee*, Highly stretchable and transparent hybrid double-network acrylic nanocomposite adhesive based on the synergy between stretchable silica nanoparticles and multifunctional dual crosslinkers. European Polymer Journal, 2025, 235, 114071. <a href="https://doi.org/10.1016/j.eurpolymj.2025.114071">10.1016/j.eurpolymj.2025.114071</a>
+    GRANTS & FELLOWSHIPS:
+      - date_range: Sep 2025 – Aug 2026
+        title: Master’s Research Grant, National Research Foundation of Korea (NRF)
         highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+          - Selected through a competitive research proposal process for an independently proposed master’s research project.
+    RESEARCH EXPERIENCE:
+      - date_range: Jul 2026 – Present
+        title: Development of High-Impact-Resistant Pressure-Sensitive Adhesives via Shear Flow-Induced Nano-Alignment of Nanorods
+        subtitle: Sponsored by Samsung Display Corporation
+        subtitle_italic: true
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+          - Designed and conducted systematic studies of anisotropic nanoparticle morphology to elucidate shear-induced nanorod alignment in polymer resin formulations.
+          - Optimized nanoparticle loading, resin viscosity, and blade/roll-to-roll coating parameters to balance optical transparency, haze, adhesion, and impact resistance.
+      - date_range: Mar 2026 – Present
+        title: High-Resolution Patterning of Ferromagnetic Particles in Organic Thin Films Using a Tunable Magnetic Polarity Array Based on the Magnetic Trapping Effect
+        subtitle: Sponsored by the Ministry of Science and ICT (MSIT) of Korea
+        subtitle_italic: true
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+          - Co-authored the research proposal and designed the particle surface-modification strategy, including particle selection and functional-group design, to enable magnetic trapping and patterning in organic thin films.
+      - date_range: Nov 2025 – Present
+        title: Spontaneous Surface-Rich Nanoparticle Segregation Technology Enabling Dual-Functional Overcoat Layer
+        subtitle: Sponsored by Nissan Chemical Korea
+        subtitle_italic: true
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+          - Developed nanoparticle-segregated overcoat films with a hard-surface/soft-bulk mechanical gradient by controlling spontaneous surface enrichment of surface-modified nanoparticles.
+          - Quantified nanoparticle distribution and correlated segregation behavior with mechanical and optical performance using SEM/EDS, nanoindentation, ball-drop testing, and UV–Vis spectroscopy.
+      - date_range: Sep 2025 – Aug 2026
+        title: Development of Stretchable and Transparent Optical Films with Biomimetic Surface Patterns for Free-form Displays
+        subtitle: Supported by the NRF Master’s Research Grant
+        subtitle_italic: true
+        highlights:
+          - Designed and synthesized highly stretchable, transparent polyurethane acrylate (PUA) resin systems for bioinspired free-form display applications.
+          - Investigated an inkjet-based micropatterning process for stretchable optical films, targeting an elongation of >600%, immediate strain recovery of >90%, and optical transmittance of >90%.
+      - date_range: Jul 2024 – Present
+        title: Development of Highly Durable Adhesive for Fuel Cell MEA and Reliability Evaluation Method
+        subtitle: Sponsored by Hyundai Motor Group
+        subtitle_italic: true
+        highlights:
+          - Designed and executed accelerated multi-stress degradation protocols to evaluate the long-term durability of polymeric sealing materials for fuel-cell MEAs.
+          - Formulated and optimized adhesive resin systems and their rheological properties for jetting, screen printing, and spray-coating processes.
+      - date_range: Jun 2024 – May 2025
+        title: Development of New Impact-Resistant Coating Materials for Displays
+        subtitle: Sponsored by Nissan Chemical Korea
+        subtitle_italic: false
+        highlights:
+          - Designed and synthesized surface-functionalized nanoparticles and optimized nanocomposite resin formulations, achieving a 20% improvement in impact resistance for foldable-display optically clear adhesives (OCAs).
+          - Established structure–property relationships through morphological, chemical, mechanical, optical, and thermal characterization; research outcomes contributed to a patent application and manuscript preparation.
+    TEACHING EXPERIENCE:
+      - date_range: Sep 2026 – Present
+        title: SEM/EDS Instrumentation Assistant
+        subtitle: Soongsil University, Research Equipment Center
+        subtitle_italic: true
+        location: Seoul, Korea
+        location_on_subtitle: true
+        highlights:
+          - Operated and maintained FE-SEM/EDS instrumentation and assisted users with instrument operation, troubleshooting, and routine technical issues.
+          - Trained new users in sample preparation, instrument operation, and basic SEM/EDS data acquisition.
+      - date_range: Mar 2026 – Aug 2026
+        title: Lead Teaching Assistant
+        subtitle: Soongsil University, Department of Chemical Engineering
+        subtitle_italic: true
+        location: Seoul, Korea
+        location_on_subtitle: true
+        highlights:
+          - Supervised and coordinated a team of teaching assistants for Basic Chemical Engineering Laboratory and Chemical Engineering Laboratory courses serving approximately 220 students.
+          - Delivered laboratory lectures and coordinated TA scheduling, grading, and experiment preparation across both courses.
+          - Served as the department-level safety coordinator for undergraduate chemical engineering laboratories, overseeing laboratory safety procedures and compliance.
+      - date_range: Mar 2025 – Feb 2026
+        title: Teaching Assistant
+        subtitle: Soongsil University, Department of Chemical Engineering
+        subtitle_italic: true
+        location: Seoul, Korea
+        location_on_subtitle: true
+        highlights:
+          - Assisted with Basic Chemical Engineering Laboratory courses for second-year Chemical Engineering students.
+          - Delivered lectures and led grading and review sessions for 108 students.
+    SKILLS & TECHNIQUES:
+      - bullet: >-
+          <strong>Materials Synthesis &amp; Formulation:</strong> Polymer resin formulation, nanoparticle surface functionalization, polyurethane acrylate synthesis, nanocomposite formulation
+      - bullet: >-
+          <strong>Coating &amp; Patterning:</strong> Blade coating, roll-to-roll coating, inkjet printing, jetting, screen printing, spray coating
+      - bullet: >-
+          <strong>Characterization:</strong> FE-SEM/EDS, AFM, FT-IR, UV–Vis, TGA, DSC, XRD, DLS, nanoindentation, UTM, optical microscopy (OM), contact angle
+      - bullet: >-
+          <strong>Software &amp; Data Analysis:</strong> OriginPro, SigmaPlot, ImageJ, Rhino; rheological analysis, particle-distribution analysis, structure–property relationship analysis
+    ADDITIONAL EXPERIENCE:
+      - date_range: Dec 2019 – Jul 2023
+        title: Chemistry Assessment Development Team Lead
+        subtitle: VERADI Co., Ltd.
+        subtitle_italic: true
+        location: Seoul, Korea
+        location_on_subtitle: true
+        highlights:
+          - Developed and reviewed high school chemistry assessment items for Korea’s national college entrance examination (CSAT), focusing on scientific accuracy, clarity, and difficulty calibration.
+          - Led the chemistry item-development team, coordinating question writing, peer review, revision, and quality control for published mock-exam materials, including the <em>Helios</em> series.
+    VOLUNTEER EXPERIENCE:
+      - date_range: Sep 2023 – Apr 2024
+        title: Volunteer
+        subtitle: Beautiful Store, Songpa Garak Branch
+        subtitle_italic: true
+        location: Seoul, Korea
+        location_on_subtitle: true
+        highlights:
+          - Supported store operations including sales, customer assistance, and store organization.
+          - Received, sorted, and organized donated goods and prepared items for transfer to the organization’s distribution network.
