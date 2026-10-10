@@ -40,7 +40,7 @@ projects:
     image_alt: ""
     description: ""
     links:
-      - label: Manuscript
+      - label: Paper
         url: ""
   - title: Dual-Network Acrylic Adhesives
     id: dual-network-acrylic-adhesives

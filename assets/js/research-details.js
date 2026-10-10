@@ -5,7 +5,7 @@
     const previous = animations.get(panel);
     if (previous) previous.cancel();
     button.setAttribute("aria-expanded", String(expanded));
-    button.querySelector(".research-details-state").textContent = expanded ? "(collapse)" : "(expand)";
+    button.textContent = expanded ? "Less ↑" : "More details ↓";
     panel.hidden = false;
     if (!animate || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       panel.hidden = !expanded;

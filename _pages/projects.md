@@ -40,7 +40,6 @@ _styles: |
   .research-project-group--additional .research-project-meta { margin-bottom: 0.9rem; }
   .research-project-group--additional .research-project-summary { font-size: 0.95rem; line-height: 1.7; margin-bottom: 0.9rem; }
   .research-details-toggle { padding: 0; border: 0; background: transparent; color: var(--global-text-color); font-family: inherit; font-size: 0.85rem; cursor: pointer; text-decoration: underline; text-decoration-color: var(--global-divider-color); text-underline-offset: 0.2em; }
-  .research-details-state { font-size: 0.75rem; color: color-mix(in srgb, var(--global-text-color) 60%, var(--global-bg-color)); }
   .research-details-toggle:hover { color: var(--global-theme-color); text-decoration-color: currentColor; }
   .research-details-toggle:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
   .research-project-details { grid-column: 1 / -1; overflow: hidden; border-top: 1px solid var(--global-divider-color); }
@@ -109,7 +108,7 @@ _styles: |
           </ul>
           {% endif %}
           {% if group == 'featured' %}
-          <button class="research-details-toggle" type="button" aria-expanded="false" aria-controls="{{ project.id }}-details">More details <span class="research-details-state">(expand)</span></button>
+          <button class="research-details-toggle" type="button" aria-expanded="false" aria-controls="{{ project.id }}-details">More details ↓</button>
           {% endif %}
         </div>
         {% endif %}
