@@ -47,6 +47,8 @@ _styles: |
   #magnetic-field-directed-particle-patterning .research-project-methods span { font-weight: 500; }
   #surface-segregation-of-nanoparticles .research-project-methods { font-size: 0.85rem; line-height: 1.5; margin: 0 0 1.25rem; color: color-mix(in srgb, var(--global-text-color) 65%, var(--global-bg-color)); }
   #surface-segregation-of-nanoparticles .research-project-methods span { font-weight: 500; }
+  #shear-directed-nanorod-alignment .research-project-methods { font-size: 0.85rem; line-height: 1.5; margin: 0 0 1.25rem; color: color-mix(in srgb, var(--global-text-color) 65%, var(--global-bg-color)); }
+  #shear-directed-nanorod-alignment .research-project-methods span { font-weight: 500; }
   @media (min-width: 768px) {
     #stretchable-optical-films-nrf-project { grid-template-columns: 32% minmax(0, 1fr); }
     #magnetic-field-directed-particle-patterning { grid-template-columns: 32% minmax(0, 1fr); }
