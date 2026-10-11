@@ -36,7 +36,7 @@ _styles: |
 
 <div class="cv">
   <div class="card mt-3 p-3 cv-contact">
-    <a class="float-right" href="{{ '/assets/pdf/HyeRyeon%20Park_2026%20ver.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Download CV PDF" style="align-self: flex-end">
+    <a class="float-right" href="{{ '/assets/pdf/HyeRyeon_Park_CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Download CV PDF" style="align-self: flex-end">
       <i class="fa-solid fa-file-pdf" aria-hidden="true"></i>
     </a>
     <h3 class="card-title font-weight-medium" data-toc-skip><strong>{{ cv.name }}</strong></h3>

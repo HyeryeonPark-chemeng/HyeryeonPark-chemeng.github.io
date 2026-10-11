@@ -2,7 +2,5 @@
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 email: helen1110@soongsil.ac.kr # your email address
-# Add your Google Scholar profile user ID here (the value of user= in your citations profile URL).
-# Uncomment to render Google Scholar between Email and GitHub; leave commented until a real profile is available.
-# scholar_userid: ""
+scholar_userid: 7aBYgs0AAAAJ # Google Scholar profile user ID
 github_username: HyeryeonPark-chemeng # your GitHub user name

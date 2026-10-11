@@ -12,7 +12,7 @@ profile:
     <p>Department of Chemical Engineering</p>
     <p>Soongsil University</p>
     <p>Seoul, Republic of Korea</p>
-    <p class="profile-advisor">Advisor: Jun Hyup Lee</p>
+    <p class="profile-advisor">Advisor: <a href="http://chemeng.ssu.ac.kr/sub/sub01_04.php?mode=view&amp;cat_no=1&amp;idx=22&amp;offset=" target="_blank" rel="noopener noreferrer">Jun Hyup Lee</a></p>
     <p>Laboratory: Nano/Micro Engineering Laboratory</p>
 
 selected_papers: false
@@ -73,6 +73,15 @@ I am a master’s student in Chemical Engineering at Soongsil University. My res
 My work examines how <strong>interfacial phenomena and processing conditions govern structure formation</strong> in polymeric materials. Changes in surface chemistry, flow, and applied fields can alter particle distribution and orientation, while particle–polymer interactions and interfacial mechanics shape the resulting material response. A central theme of my research is understanding how these microscopic and mesoscale processes translate into <strong>macroscopic mechanical, optical, and functional properties</strong>.
 
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll('a[href^="https://scholar.google.com/citations?user=7aBYgs0AAAAJ"]').forEach((link) => {
+    link.setAttribute("aria-label", "Google Scholar");
+    link.title = "Google Scholar";
+  });
+});
+</script>
 
 <div class="about-research">
   <h2>Research Interests</h2>
