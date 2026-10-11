@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>Department of Chemical Engineering</p>
     <p>Soongsil University</p>
-    <p>Seoul, Republic of Korea</p>
+    <p>Seoul, South Korea</p>
     <p class="profile-advisor"><span class="profile-metadata-label">Advisor:</span> <a href="http://chemeng.ssu.ac.kr/sub/sub01_04.php?mode=view&amp;cat_no=1&amp;idx=22&amp;offset=" target="_blank" rel="noopener noreferrer">Jun Hyup Lee</a></p>
     <p><span class="profile-metadata-label">Laboratory:</span> <span class="profile-laboratory-name">Nano/Micro Engineering Laboratory</span></p>
 
@@ -28,12 +28,27 @@ latest_posts:
   scrollable: true
   limit: 3
 
-# Research-interest links target stable project groups on the Research page.
+# Research interests may link to overlapping sets of stable project cards.
 research_project_links:
-  enabled: true
-  assembly: /research/#particle-assembly
-  reliability: /research/#interfacial-reliability
-  processing: /research/#processing-structure-property
+  assembly:
+    - label: Surface Segregation
+      id: surface-segregation-of-nanoparticles
+    - label: Shear-Directed Alignment
+      id: shear-directed-nanorod-alignment
+    - label: Magnetic Particle Patterning
+      id: magnetic-field-directed-particle-patterning
+  reliability:
+    - label: Fuel-Cell Reliability
+      id: fuel-cell-adhesive-durability
+    - label: Dual-Network Adhesives
+      id: dual-network-acrylic-adhesives
+  processing:
+    - label: Surface Segregation
+      id: surface-segregation-of-nanoparticles
+    - label: Shear-Directed Alignment
+      id: shear-directed-nanorod-alignment
+    - label: Stretchable Optical Films
+      id: stretchable-optical-films-nrf-project
 ---
 
 <style>
@@ -50,6 +65,7 @@ research_project_links:
 .about-research-area .related-projects a { color: var(--global-text-color); text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--global-text-color) 40%, var(--global-bg-color)); text-underline-offset: 0.2em; }
 .about-research-area .related-projects a:hover { color: var(--global-theme-color); text-decoration-color: currentColor; text-decoration-thickness: 2px; }
 .about-research-area .related-projects a em { color: inherit; }
+.about-research-area .related-projects .related-project-link { display: inline-block; }
 .about-research-area .related-projects a:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
 .about-profile-layout > .profile { float: none !important; width: 100%; margin: 0 0 1.25rem; }
 .about-profile-layout > .profile img { transform: scale(0.95); transform-origin: left bottom; }
@@ -115,23 +131,21 @@ document.addEventListener("DOMContentLoaded", () => {
     <h3 id="assembly-heading">Directed particle assembly and patterning in polymer thin films</h3>
     <p>I investigate how spontaneous surface segregation, shear-induced alignment, and field-directed assembly can be used to control particle position and orientation and create anisotropic, gradient, and spatially organized structures.</p>
     <p class="related-projects">
-      {% if page.research_project_links.enabled %}
-      <a href="{{ page.research_project_links.assembly | relative_url }}"><em>Related research projects →</em></a>
-      {% else %}
-      <a class="future-project-link" href="{{ '/research/' | relative_url }}" data-future-href="{{ page.research_project_links.assembly | relative_url }}"><em>Related research projects →</em></a>
-      {% endif %}
+      Related projects:
+      {% for project in page.research_project_links.assembly %}
+      <span class="related-project-link"><a href="{{ '/research/' | relative_url }}#{{ project.id }}">{{ project.label }}</a>{% unless forloop.last %} · {% endunless %}</span>
+      {% endfor %}
     </p>
   </section>
 
   <section class="about-research-area" aria-labelledby="reliability-heading">
     <h3 id="reliability-heading">Interfacial mechanics and reliability of functional soft materials</h3>
-    <p>I examine how particle–polymer interactions and interfacial adhesion govern deformation, recovery, durability, and long-term reliability, particularly in materials subjected to repeated or large deformation.</p>
+    <p>I examine how polymer-network architecture, particle–polymer interactions, and interfacial adhesion govern deformation recovery and long-term durability under repeated mechanical loading and coupled environmental stresses.</p>
     <p class="related-projects">
-      {% if page.research_project_links.enabled %}
-      <a href="{{ page.research_project_links.reliability | relative_url }}"><em>Related research projects →</em></a>
-      {% else %}
-      <a class="future-project-link" href="{{ '/research/' | relative_url }}" data-future-href="{{ page.research_project_links.reliability | relative_url }}"><em>Related research projects →</em></a>
-      {% endif %}
+      Related projects:
+      {% for project in page.research_project_links.reliability %}
+      <span class="related-project-link"><a href="{{ '/research/' | relative_url }}#{{ project.id }}">{{ project.label }}</a>{% unless forloop.last %} · {% endunless %}</span>
+      {% endfor %}
     </p>
   </section>
 
@@ -139,11 +153,10 @@ document.addEventListener("DOMContentLoaded", () => {
     <h3 id="processing-heading">Processing–structure–property relationships in polymer films and coatings</h3>
     <p>I seek to connect rheological behavior, coating and printing processes, and micro-/nanoscale morphology with macroscopic mechanical and optical performance, with the broader goal of establishing predictive principles for materials design.</p>
     <p class="related-projects">
-      {% if page.research_project_links.enabled %}
-      <a href="{{ page.research_project_links.processing | relative_url }}"><em>Related research projects →</em></a>
-      {% else %}
-      <a class="future-project-link" href="{{ '/research/' | relative_url }}" data-future-href="{{ page.research_project_links.processing | relative_url }}"><em>Related research projects →</em></a>
-      {% endif %}
+      Related projects:
+      {% for project in page.research_project_links.processing %}
+      <span class="related-project-link"><a href="{{ '/research/' | relative_url }}#{{ project.id }}">{{ project.label }}</a>{% unless forloop.last %} · {% endunless %}</span>
+      {% endfor %}
     </p>
   </section>
 </div>

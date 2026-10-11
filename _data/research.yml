@@ -30,7 +30,7 @@ projects:
     detail_approach: >-
       Silica nanorods with tunable aspect ratios are being synthesized and surface-functionalized to improve compatibility with acrylic PSA matrices. Nanorod geometry, surface chemistry, resin viscosity, and shear rate are treated as coupled design variables, with the goal of controlling the competition between rotational diffusion and flow-induced orientation during coating.
     detail_significance: >-
-      The project aims to establish nanorod orientation as a processing-controlled structural variable for transparent adhesive films. By linking particle anisotropy and rheological conditions to alignment behavior, the work seeks to determine whether directional particle organization can provide a more efficient route to impact-energy dissipation while minimizing the optical and mechanical penalties associated with conventional filler reinforcement.
+      The project aims to establish nanorod orientation as a processing-controlled structural variable for transparent adhesive films. By linking particle anisotropy and rheological conditions to alignment behavior, the work seeks to determine whether directional particle organization can provide more effective pathways for impact-load transfer and distribution while minimizing the optical and mechanical penalties associated with conventional filler reinforcement.
     detail_figures: []
     period: Jun 2026 – Present
     funding: Samsung Display
@@ -82,7 +82,7 @@ projects:
     image: ""
     image_alt: ""
     description: >-
-      Developed dual-network acrylic adhesive films that combine nanoparticle-mediated elastic reinforcement with molecular-scale crosslinking to improve mechanical recovery under repeated deformation. By separating the roles of elastic nano-crosslinkers and molecular-bridge crosslinkers, I established structure–property relationships linking network architecture to strain recovery, stress relaxation, adhesion, and optical transparency.
+      Developed dual-network acrylic adhesive films that combine a nanoparticle-mediated nanoscale elastic network with molecular-scale bridge crosslinking to improve mechanical recovery under repeated deformation. By separating the roles of elastic nano-crosslinkers and molecular-bridge crosslinkers, I established structure–property relationships linking network architecture to strain recovery, stress relaxation, adhesion, and optical transparency.
     links: []
     papers:
       - citation: >-
@@ -102,7 +102,7 @@ projects:
     image: /assets/img/stretchable-optical-films-schematic.jpg
     image_alt: Schematic of inkjet-printable PUA formulation design, refractive-index matching, mesh printing and UV curing, transfer to PET, and acrylic OCR printing and curing.
     description: >-
-      Developing transparent, stretchable adhesive films for free-form displays through elastomeric resin design and biomimetic surface patterning. Initial formulation screening evaluated adhesion, tensile behavior, stress relaxation, optical transparency, and cyclic strain recovery, while ongoing work focuses on highly elastic PUA materials and inkjet-based micropatterning.
+      Developed transparent, stretchable adhesive films for free-form displays through elastomeric resin design and biomimetic surface patterning. Formulation screening evaluated adhesion, tensile behavior, stress relaxation, optical transparency, and cyclic strain recovery, with subsequent work focusing on highly elastic PUA materials and inkjet-based micropatterning.
     links: []
   - title: Magnetic-Field-Directed Particle Patterning in Organic Thin Films
     interest_anchor: processing-structure-property
