@@ -94,7 +94,7 @@ _styles: |
       </figure>
       <div class="research-project-content">
         <h3 id="{{ project.id }}-title">{{ project.title }}</h3>
-        <p class="research-project-meta">{{ project.period | default: 'Period / project metadata to be added' }}</p>
+        <p class="research-project-meta">{{ project.period | default: 'Period / project metadata to be added' }}{% if project.sponsor %} · Sponsored by {{ project.sponsor }}{% elsif project.support %} · Supported by {{ project.support }}{% endif %}</p>
         <p class="research-project-summary">
           {% if project.description != '' %}
           {{ project.description }}

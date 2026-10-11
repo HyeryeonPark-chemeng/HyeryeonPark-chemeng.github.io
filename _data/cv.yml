@@ -3,6 +3,7 @@ cv:
   email: helen1110@soongsil.ac.kr
   phone: +82 10 9723 8545
   location: Seoul, South Korea
+  website: https://hyeryeonpark-chemeng.github.io
   sections:
     RESEARCH INTERESTS:
       - bullet: >-
@@ -14,7 +15,7 @@ cv:
     EDUCATION:
       - date_range: Mar 2025 – Present
         title: Soongsil University
-        location: Seoul, Korea
+        location: Seoul, South Korea
         subtitle: M.S. in Chemical Engineering, Expected Feb 2027
         subtitle_italic: true
         highlights:
@@ -22,7 +23,7 @@ cv:
           - "Advisor: Jun Hyup Lee"
       - date_range: Mar 2021 – Feb 2025
         title: Soongsil University
-        location: Seoul, Korea
+        location: Seoul, South Korea
         subtitle: B.S. in Chemical Engineering
         subtitle_italic: true
         highlights:
@@ -61,6 +62,14 @@ cv:
         highlights:
           - Selected through a competitive research proposal process for an independently proposed master’s research project.
     RESEARCH EXPERIENCE:
+      - date_range: Jun 2024 – Present
+        title: Development of Surface-Segregated Nanocomposite Adhesives and Overcoat Films for Impact Resistance
+        subtitle: Sponsored by Nissan Chemical Korea
+        subtitle_italic: true
+        highlights:
+          - Developed surface-functionalized nanoparticle/PSA systems with controlled surface segregation, achieving a 20% improvement in impact resistance and leading to a Korean patent application.
+          - Extended the surface-segregation strategy to overcoat films with a hard-surface/soft-bulk mechanical gradient by controlling nanoparticle enrichment.
+          - Quantified nanoparticle distribution and correlated segregation behavior with mechanical and optical performance using SEM/EDS, nanoindentation, ball-drop testing, and UV–Vis spectroscopy.
       - date_range: Jul 2026 – Present
         title: Development of High-Impact-Resistant Pressure-Sensitive Adhesives via Shear Flow-Induced Nano-Alignment of Nanorods
         subtitle: Sponsored by Samsung Display Corporation
@@ -68,26 +77,6 @@ cv:
         highlights:
           - Designed and conducted systematic studies of anisotropic nanoparticle morphology to elucidate shear-induced nanorod alignment in polymer resin formulations.
           - Optimized nanoparticle loading, resin viscosity, and blade/roll-to-roll coating parameters to balance optical transparency, haze, adhesion, and impact resistance.
-      - date_range: Mar 2026 – Present
-        title: High-Resolution Patterning of Ferromagnetic Particles in Organic Thin Films Using a Tunable Magnetic Polarity Array Based on the Magnetic Trapping Effect
-        subtitle: Sponsored by the Ministry of Science and ICT (MSIT) of Korea
-        subtitle_italic: true
-        highlights:
-          - Co-authored the research proposal and designed the particle surface-modification strategy, including particle selection and functional-group design, to enable magnetic trapping and patterning in organic thin films.
-      - date_range: Nov 2025 – Present
-        title: Spontaneous Surface-Rich Nanoparticle Segregation Technology Enabling Dual-Functional Overcoat Layer
-        subtitle: Sponsored by Nissan Chemical Korea
-        subtitle_italic: true
-        highlights:
-          - Developed nanoparticle-segregated overcoat films with a hard-surface/soft-bulk mechanical gradient by controlling spontaneous surface enrichment of surface-modified nanoparticles.
-          - Quantified nanoparticle distribution and correlated segregation behavior with mechanical and optical performance using SEM/EDS, nanoindentation, ball-drop testing, and UV–Vis spectroscopy.
-      - date_range: Sep 2025 – Aug 2026
-        title: Development of Stretchable and Transparent Optical Films with Biomimetic Surface Patterns for Free-form Displays
-        subtitle: Supported by the NRF Master’s Research Grant
-        subtitle_italic: true
-        highlights:
-          - Designed and synthesized highly stretchable, transparent polyurethane acrylate (PUA) resin systems for bioinspired free-form display applications.
-          - Investigated an inkjet-based micropatterning process for stretchable optical films, targeting an elongation of >600%, immediate strain recovery of >90%, and optical transmittance of >90%.
       - date_range: Jul 2024 – Present
         title: Development of Highly Durable Adhesive for Fuel Cell MEA and Reliability Evaluation Method
         subtitle: Sponsored by Hyundai Motor Group
@@ -95,19 +84,30 @@ cv:
         highlights:
           - Designed and executed accelerated multi-stress degradation protocols to evaluate the long-term durability of polymeric sealing materials for fuel-cell MEAs.
           - Formulated and optimized adhesive resin systems and their rheological properties for jetting, screen printing, and spray-coating processes.
-      - date_range: Jun 2024 – May 2025
-        title: Development of New Impact-Resistant Coating Materials for Displays
-        subtitle: Sponsored by Nissan Chemical Korea
+      - date_range: May 2026 – Aug 2026
+        title: Development of Highly Recoverable Dual-Network Acrylic Adhesive Films for Flexible Displays
+        highlights:
+          - Developed dual-network acrylic adhesive films using elastic nano-crosslinkers and molecular-bridge crosslinking to improve mechanical recovery while maintaining optical transparency and adhesion.
+          - Designed UTM-based stress-relaxation, strain-recovery, and cyclic loading–unloading tests across multiple strain and cycle conditions to evaluate viscoelastic response and cyclic mechanical stability.
+      - date_range: Sep 2025 – Aug 2026
+        title: Development of Stretchable and Transparent Optical Films with Biomimetic Surface Patterns for Free-form Displays
+        subtitle: Supported by the NRF Master’s Research Grant
         subtitle_italic: true
         highlights:
-          - Designed and synthesized surface-functionalized nanoparticles and optimized nanocomposite resin formulations, achieving a 20% improvement in impact resistance for foldable-display optically clear adhesives (OCAs).
-          - Established structure–property relationships through morphological, chemical, mechanical, optical, and thermal characterization; research outcomes contributed to a patent application and manuscript preparation.
+          - Designed and synthesized highly stretchable, transparent polyurethane acrylate (PUA) resin systems for bioinspired free-form display applications.
+          - Investigated an inkjet-based micropatterning process for stretchable optical films, targeting an elongation of >600%, immediate strain recovery of >90%, and optical transmittance of >90%.
+      - date_range: Mar 2026 – Present
+        title: High-Resolution Patterning of Ferromagnetic Particles in Organic Thin Films Using a Tunable Magnetic Polarity Array Based on the Magnetic Trapping Effect
+        subtitle: Sponsored by the Ministry of Science and ICT (MSIT) of Korea
+        subtitle_italic: true
+        highlights:
+          - Co-authored the research proposal and designed the particle surface-modification strategy, including particle selection and functional-group design, to enable magnetic trapping and patterning in organic thin films.
     TEACHING EXPERIENCE:
       - date_range: Sep 2026 – Present
         title: SEM/EDS Instrumentation Assistant
         subtitle: Soongsil University, Research Equipment Center
         subtitle_italic: true
-        location: Seoul, Korea
+        location: Seoul, South Korea
         location_on_subtitle: true
         highlights:
           - Operated and maintained FE-SEM/EDS instrumentation and assisted users with instrument operation, troubleshooting, and routine technical issues.
@@ -116,7 +116,7 @@ cv:
         title: Lead Teaching Assistant
         subtitle: Soongsil University, Department of Chemical Engineering
         subtitle_italic: true
-        location: Seoul, Korea
+        location: Seoul, South Korea
         location_on_subtitle: true
         highlights:
           - Supervised and coordinated a team of teaching assistants for Basic Chemical Engineering Laboratory and Chemical Engineering Laboratory courses serving approximately 220 students.
@@ -126,7 +126,7 @@ cv:
         title: Teaching Assistant
         subtitle: Soongsil University, Department of Chemical Engineering
         subtitle_italic: true
-        location: Seoul, Korea
+        location: Seoul, South Korea
         location_on_subtitle: true
         highlights:
           - Assisted with Basic Chemical Engineering Laboratory courses for second-year Chemical Engineering students.
@@ -137,7 +137,7 @@ cv:
       - bullet: >-
           <strong>Coating &amp; Patterning:</strong> Blade coating, roll-to-roll coating, inkjet printing, jetting, screen printing, spray coating
       - bullet: >-
-          <strong>Characterization:</strong> FE-SEM/EDS, AFM, FT-IR, UV–Vis, TGA, DSC, XRD, DLS, nanoindentation, UTM, optical microscopy (OM), contact angle
+          <strong>Characterization:</strong> FE-SEM/EDS, AFM, FT-IR, UV–Vis, TGA, DSC, XRD, DLS, nanoindentation, UTM, 180° peel test, optical microscopy (OM), contact angle
       - bullet: >-
           <strong>Software &amp; Data Analysis:</strong> OriginPro, SigmaPlot, ImageJ, Rhino; rheological analysis, particle-distribution analysis, structure–property relationship analysis
     ADDITIONAL EXPERIENCE:
@@ -145,17 +145,17 @@ cv:
         title: Chemistry Assessment Development Team Lead
         subtitle: VERADI Co., Ltd.
         subtitle_italic: true
-        location: Seoul, Korea
+        location: Seoul, South Korea
         location_on_subtitle: true
         highlights:
-          - Developed and reviewed high school chemistry assessment items for Korea’s national college entrance examination (CSAT), focusing on scientific accuracy, clarity, and difficulty calibration.
-          - Led the chemistry item-development team, coordinating question writing, peer review, revision, and quality control for published mock-exam materials, including the <em>Helios</em> series.
+          - Developed and reviewed high school chemistry practice assessment items for Korea’s national college entrance examination (CSAT), focusing on scientific accuracy, clarity, and difficulty calibration.
+          - Led the chemistry item-development team, coordinating question writing, peer review, revision, and quality control for published chemistry mock-exam materials, including the <em>Helios</em> series.
     VOLUNTEER EXPERIENCE:
       - date_range: Sep 2023 – Apr 2024
         title: Volunteer
         subtitle: Beautiful Store, Songpa Garak Branch
         subtitle_italic: true
-        location: Seoul, Korea
+        location: Seoul, South Korea
         location_on_subtitle: true
         highlights:
           - Supported store operations including sales, customer assistance, and store organization.

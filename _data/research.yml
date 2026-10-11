@@ -1,7 +1,7 @@
 # Replace the empty fields as project content becomes available.
 # Link items may use: label: Paper, url: https://...
 projects:
-  - title: Surface Segregation of Nanoparticles
+  - title: Development of Surface-Segregated Nanocomposite Adhesives and Overcoat Films for Impact Resistance
     interest_anchor: particle-assembly
     id: surface-segregation-of-nanoparticles
     group: featured
@@ -9,14 +9,15 @@ projects:
     detail_approach: ""
     detail_significance: ""
     detail_figures: []
-    period: ""
+    period: Jun 2024 – Present
+    sponsor: Nissan Chemical Korea
     image: ""
     image_alt: ""
     description: >-
-      Investigated the interfacial driving forces governing spontaneous surface segregation of surface-modified nanoparticles in polymer thin films. Designed nanoparticle surface-modification strategies and quantified through-thickness particle distributions to establish relationships between segregation behavior and mechanical and optical performance.
+      Developed surface-functionalized nanoparticle/PSA systems with controlled surface segregation, achieving a 20% improvement in impact resistance and leading to a Korean patent application. Extended this strategy to overcoat films with a hard-surface/soft-bulk mechanical gradient through nanoparticle enrichment. Quantified nanoparticle distributions and correlated segregation behavior with mechanical and optical performance using SEM/EDS, nanoindentation, ball-drop testing, and UV–Vis spectroscopy.
     output_note: "Research output: Korean patent application filed (2026)"
     links: []
-  - title: Shear-Directed Nanorod Alignment
+  - title: Development of High-Impact-Resistant Pressure-Sensitive Adhesives via Shear Flow-Induced Nano-Alignment of Nanorods
     interest_anchor: particle-assembly
     id: shear-directed-nanorod-alignment
     group: featured
@@ -24,12 +25,14 @@ projects:
     detail_approach: ""
     detail_significance: ""
     detail_figures: []
-    period: ""
+    period: Jul 2026 – Present
+    sponsor: Samsung Display Corporation
     image: ""
     image_alt: ""
-    description: ""
+    description: >-
+      Studied anisotropic nanoparticle morphology to elucidate shear-induced nanorod alignment in polymer resin formulations. Optimized nanoparticle loading, resin viscosity, and blade/roll-to-roll coating parameters to balance optical transparency, haze, adhesion, and impact resistance.
     links: []
-  - title: Fuel-Cell Adhesive Durability
+  - title: Development of Highly Durable Adhesive for Fuel Cell MEA and Reliability Evaluation Method
     interest_anchor: interfacial-reliability
     id: fuel-cell-adhesive-durability
     group: featured
@@ -37,14 +40,16 @@ projects:
     detail_approach: ""
     detail_significance: ""
     detail_figures: []
-    period: ""
+    period: Jul 2024 – Present
+    sponsor: Hyundai Motor Group
     image: ""
     image_alt: ""
-    description: ""
+    description: >-
+      Designed and executed accelerated multi-stress degradation protocols to evaluate the long-term durability of polymeric sealing materials for fuel-cell MEAs. Formulated and optimized adhesive resin systems and their rheological properties for jetting, screen printing, and spray-coating processes.
     links:
       - label: Paper
         url: ""
-  - title: Dual-Network Acrylic Adhesives
+  - title: Development of Highly Recoverable Dual-Network Acrylic Adhesive Films for Flexible Displays
     interest_anchor: interfacial-reliability
     id: dual-network-acrylic-adhesives
     group: featured
@@ -52,28 +57,33 @@ projects:
     detail_approach: ""
     detail_significance: ""
     detail_figures: []
-    period: ""
+    period: May 2026 – Aug 2026
     image: ""
     image_alt: ""
-    description: ""
+    description: >-
+      Developed dual-network acrylic adhesive films using elastic nano-crosslinkers and molecular-bridge crosslinking to improve mechanical recovery while maintaining optical transparency and adhesion. Designed UTM-based stress-relaxation, strain-recovery, and cyclic loading–unloading tests across multiple strain and cycle conditions to evaluate viscoelastic response and cyclic mechanical stability.
     links:
       - label: Paper
         url: ""
-  - title: Stretchable Optical Films / NRF Project
+  - title: Development of Stretchable and Transparent Optical Films with Biomimetic Surface Patterns for Free-form Displays
     interest_anchor: processing-structure-property
     id: stretchable-optical-films-nrf-project
     group: additional
-    period: ""
+    period: Sep 2025 – Aug 2026
+    support: NRF Master’s Research Grant
     image: ""
     image_alt: ""
-    description: ""
+    description: >-
+      Designed and synthesized highly stretchable, transparent polyurethane acrylate (PUA) resin systems for bioinspired free-form display applications. Investigated inkjet-based micropatterning, targeting elongation >600%, immediate strain recovery >90%, and optical transmittance >90%.
     links: []
-  - title: Magnetic-Field-Directed Particle Patterning
+  - title: High-Resolution Patterning of Ferromagnetic Particles in Organic Thin Films Using a Tunable Magnetic Polarity Array Based on the Magnetic Trapping Effect
     interest_anchor: processing-structure-property
     id: magnetic-field-directed-particle-patterning
     group: additional
-    period: ""
+    period: Mar 2026 – Present
+    sponsor: Ministry of Science and ICT (MSIT) of Korea
     image: ""
     image_alt: ""
-    description: ""
+    description: >-
+      Co-authored the research proposal and designed the particle surface-modification strategy, including particle selection and functional-group design, to enable magnetic trapping and patterning in organic thin films.
     links: []

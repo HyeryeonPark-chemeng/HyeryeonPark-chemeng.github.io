@@ -42,6 +42,7 @@ _styles: |
     <h3 class="card-title font-weight-medium" data-toc-skip><strong>{{ cv.name }}</strong></h3>
     <p><a href="mailto:{{ cv.email }}">{{ cv.email }}</a> | {{ cv.phone }}</p>
     <p>{{ cv.location }}</p>
+    {% if cv.website %}<p><a href="{{ cv.website }}">{{ cv.website | remove: 'https://' }}</a></p>{% endif %}
   </div>
 
 {% for section in cv.sections %}
@@ -86,6 +87,7 @@ _styles: |
       {% endfor %}
     </div>
     {% endif %}
+    {% if section[0] == 'PUBLICATIONS' %}<p class="card-text"><small>† Equal contribution. * Corresponding author.</small></p>{% endif %}
   </section>
   {% endfor %}
 </div>
