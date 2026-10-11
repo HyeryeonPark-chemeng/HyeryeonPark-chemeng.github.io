@@ -12,8 +12,8 @@ profile:
     <p>Department of Chemical Engineering</p>
     <p>Soongsil University</p>
     <p>Seoul, Republic of Korea</p>
-    <p class="profile-advisor">Advisor: <a href="http://chemeng.ssu.ac.kr/sub/sub01_04.php?mode=view&amp;cat_no=1&amp;idx=22&amp;offset=" target="_blank" rel="noopener noreferrer">Jun Hyup Lee</a></p>
-    <p>Laboratory: Nano/Micro Engineering Laboratory</p>
+    <p class="profile-advisor"><span class="profile-metadata-label">Advisor:</span> <a href="http://chemeng.ssu.ac.kr/sub/sub01_04.php?mode=view&amp;cat_no=1&amp;idx=22&amp;offset=" target="_blank" rel="noopener noreferrer">Jun Hyup Lee</a></p>
+    <p><span class="profile-metadata-label">Laboratory:</span> <span class="profile-laboratory-name">Nano/Micro Engineering Laboratory</span></p>
 
 selected_papers: false
 social: true
@@ -40,7 +40,7 @@ research_project_links:
 .about-introduction { max-width: 68ch; line-height: 1.85; }
 .about-introduction strong { font-weight: 600; }
 .about-introduction p { margin: 0 0 1.25rem; }
-.about-research { clear: both; padding-top: 1.5rem; width: 100%; }
+.about-research { padding-top: 1.5rem; width: 100%; }
 .about-research > h2 { font-size: 1.75rem; font-weight: 600; line-height: 1.3; margin: 0 0 0.5rem; }
 .about-research > .research-introduction { font-size: 0.98rem; line-height: 1.6; color: color-mix(in srgb, var(--global-text-color) 65%, var(--global-bg-color)); margin: 0 0 1.75rem; }
 .about-research-area { display: flex; flex-direction: column; box-sizing: border-box; width: 100%; border: 1px solid var(--global-divider-color); border-left: 2px solid var(--global-theme-color); border-radius: 3px; background: color-mix(in srgb, var(--global-text-color) 1.5%, var(--global-bg-color)); padding: 1.35rem 2rem; margin-bottom: 1.5rem; }
@@ -51,13 +51,22 @@ research_project_links:
 .about-research-area .related-projects a:hover { color: var(--global-theme-color); text-decoration-color: currentColor; text-decoration-thickness: 2px; }
 .about-research-area .related-projects a em { color: inherit; }
 .about-research-area .related-projects a:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
-.profile .more-info { font-size: 0.85rem; }
+.post > article > .profile { float: none !important; width: 100%; margin: 0 0 1.25rem; }
+.profile .more-info { font-family: inherit; font-size: 0.9rem; font-weight: 400; line-height: 1.55; margin-top: 0.75rem; }
+.profile .more-info p { display: block; }
+.profile .more-info .profile-metadata-label { font-weight: 500; }
 .profile .more-info .profile-advisor { margin-top: 0.65rem; }
 .post > .post-header .post-title, .post > .post-header .post-title span { font-weight: 700; }
 .post > .post-header { padding-bottom: 0.75rem; margin-bottom: 1.25rem; border-bottom: 1px solid var(--global-divider-color); }
-@media (min-width: 576px) {
-  .post > article > .profile { width: 26.25%; }
-  .about-introduction { margin-right: calc(26.25% + 3rem); }
+@media (min-width: 768px) {
+  .post > article { display: grid; grid-template-columns: minmax(0, 1fr) minmax(16.5rem, 32%); column-gap: 1.5rem; align-items: start; }
+  .post > article > .profile { grid-column: 2; grid-row: 1; width: auto; margin: 0; }
+  .post > article > .clearfix { grid-column: 1; grid-row: 1; min-width: 0; }
+  .post > article > .social { grid-column: 1 / -1; }
+  .profile .more-info .profile-laboratory-name { display: block; }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .post > article > .profile { max-width: 22rem; }
 }
 @media (max-width: 575px) {
   .about-research { padding-top: 1rem; }
