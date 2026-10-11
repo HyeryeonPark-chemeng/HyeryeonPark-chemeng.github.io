@@ -1,19 +1,23 @@
 # Replace the empty fields as project content becomes available.
 # Link items may use: label: Paper, url: https://...
 projects:
-  - title: Surface Segregation of Nanoparticles
+  - title: Controlled Surface Segregation of Nanoparticles in Polymer Thin Films
     interest_anchor: particle-assembly
     id: surface-segregation-of-nanoparticles
     group: featured
-    detail_background: ""
-    detail_approach: ""
-    detail_significance: ""
+    detail_background: >-
+      Pressure-sensitive adhesives for foldable displays must simultaneously provide optical transparency, adhesion, mechanical compliance, and resistance to localized impact. This work explores whether selective nanoparticle enrichment near the film surface can create a mechanically reinforced region within a single adhesive layer, reducing reliance on multilayer architectures and their additional interfaces.
+    detail_approach: >-
+      Silica nanoparticles were sequentially functionalized with GPTMS and PPGMA to tune their surface chemistry and incorporated into a low-viscosity acrylic PSA designed to permit particle redistribution during thermal treatment. OWRK-based surface-energy analysis and cross-sectional SEM/EDS profiling were combined to relate surface chemistry, processing temperature, and particle loading to through-thickness particle localization.
+    detail_significance: >-
+      The results demonstrate that nanoparticle localization can be tuned through surface chemistry and thermal processing, enabling spatially selective reinforcement within a single polymer layer. Increased surface enrichment improved impact resistance while revealing trade-offs with adhesion and optical transparency. Ongoing work is examining the relative contributions of interfacial energetics and thermally driven particle transport to the observed redistribution.
     detail_figures: []
-    period: ""
+    period: Jun 2024 – Present
+    methods: Surface functionalization · Interfacial energetics · Through-thickness particle analysis · Thermal processing · Impact resistance
     image: ""
     image_alt: ""
     description: >-
-      Investigated the interfacial driving forces governing spontaneous surface segregation of surface-modified nanoparticles in polymer thin films. Designed nanoparticle surface-modification strategies and quantified through-thickness particle distributions to establish relationships between segregation behavior and mechanical and optical performance.
+      Developed a single-layer impact-resistant pressure-sensitive adhesive by controlling nanoparticle localization near the film surface. I investigated how silica surface chemistry and thermal processing influence through-thickness particle redistribution and related surface enrichment to interfacial energetics, impact resistance, adhesion, and optical transparency.
     output_note: "Research output: Korean patent application filed (2026)"
     links: []
   - title: Shear-Directed Nanorod Alignment
