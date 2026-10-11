@@ -6,7 +6,7 @@ subtitle: Master's Student in Chemical Engineering, Soongsil University
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: hyeryeon-park-profile.jpg
   image_circular: false
   more_info: >
     <p>Department of Chemical Engineering</p>
