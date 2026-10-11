@@ -76,6 +76,9 @@ My work examines how <strong>interfacial phenomena and processing conditions gov
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll('a[href="mailto:helen1110@soongsil.ac.kr"]').forEach((link) => {
+    link.setAttribute("aria-label", "Email Hyeryeon Park");
+  });
   document.querySelectorAll('a[href^="https://scholar.google.com/citations?user=7aBYgs0AAAAJ"]').forEach((link) => {
     link.setAttribute("aria-label", "Google Scholar");
     link.title = "Google Scholar";
