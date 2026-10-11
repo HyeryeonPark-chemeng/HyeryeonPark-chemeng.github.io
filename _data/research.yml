@@ -1,7 +1,7 @@
 # Replace the empty fields as project content becomes available.
 # Link items may use: label: Paper, url: https://...
 projects:
-  - title: Development of Surface-Segregated Nanocomposite Adhesives and Overcoat Films for Impact Resistance
+  - title: Surface Segregation of Nanoparticles
     interest_anchor: particle-assembly
     id: surface-segregation-of-nanoparticles
     group: featured
@@ -17,7 +17,7 @@ projects:
       Developed surface-functionalized nanoparticle/PSA systems with controlled surface segregation, achieving a 20% improvement in impact resistance and leading to a Korean patent application. Extended this strategy to overcoat films with a hard-surface/soft-bulk mechanical gradient through nanoparticle enrichment. Quantified nanoparticle distributions and correlated segregation behavior with mechanical and optical performance using SEM/EDS, nanoindentation, ball-drop testing, and UV–Vis spectroscopy.
     output_note: "Research output: Korean patent application filed (2026)"
     links: []
-  - title: Development of High-Impact-Resistant Pressure-Sensitive Adhesives via Shear Flow-Induced Nano-Alignment of Nanorods
+  - title: Shear-Directed Nanorod Alignment
     interest_anchor: particle-assembly
     id: shear-directed-nanorod-alignment
     group: featured
@@ -32,7 +32,7 @@ projects:
     description: >-
       Studied anisotropic nanoparticle morphology to elucidate shear-induced nanorod alignment in polymer resin formulations. Optimized nanoparticle loading, resin viscosity, and blade/roll-to-roll coating parameters to balance optical transparency, haze, adhesion, and impact resistance.
     links: []
-  - title: Development of Highly Durable Adhesive for Fuel Cell MEA and Reliability Evaluation Method
+  - title: Fuel-Cell Adhesive Durability
     interest_anchor: interfacial-reliability
     id: fuel-cell-adhesive-durability
     group: featured
@@ -49,7 +49,7 @@ projects:
     links:
       - label: Paper
         url: ""
-  - title: Development of Highly Recoverable Dual-Network Acrylic Adhesive Films for Flexible Displays
+  - title: Dual-Network Acrylic Adhesives
     interest_anchor: interfacial-reliability
     id: dual-network-acrylic-adhesives
     group: featured
@@ -65,7 +65,7 @@ projects:
     links:
       - label: Paper
         url: ""
-  - title: Development of Stretchable and Transparent Optical Films with Biomimetic Surface Patterns for Free-form Displays
+  - title: Stretchable Optical Films / NRF Project
     interest_anchor: processing-structure-property
     id: stretchable-optical-films-nrf-project
     group: additional
@@ -76,7 +76,7 @@ projects:
     description: >-
       Designed and synthesized highly stretchable, transparent polyurethane acrylate (PUA) resin systems for bioinspired free-form display applications. Investigated inkjet-based micropatterning, targeting elongation >600%, immediate strain recovery >90%, and optical transmittance >90%.
     links: []
-  - title: High-Resolution Patterning of Ferromagnetic Particles in Organic Thin Films Using a Tunable Magnetic Polarity Array Based on the Magnetic Trapping Effect
+  - title: Magnetic-Field-Directed Particle Patterning
     interest_anchor: processing-structure-property
     id: magnetic-field-directed-particle-patterning
     group: additional
