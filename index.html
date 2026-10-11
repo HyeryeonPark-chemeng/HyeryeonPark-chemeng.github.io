@@ -26,14 +26,19 @@
 .profile .more-info .profile-advisor { margin-top: 0.65rem; }
 .post > .post-header .post-title, .post > .post-header .post-title span { font-weight: 700; }
 .post > .post-header { padding-bottom: 0.75rem; margin-bottom: 1.25rem; border-bottom: 1px solid var(--global-divider-color); }
-@media (min-width: 768px) {
-  .post > article { display: grid; grid-template-columns: minmax(0, 1fr) minmax(16.5rem, 32%); column-gap: 1.5rem; align-items: start; }
+@media (min-width: 992px) {
+  .post > article { display: grid; grid-template-columns: minmax(0, 1fr) minmax(16.5rem, 30%); column-gap: 6%; align-items: start; }
   .post > article > .profile { grid-column: 2; grid-row: 1; width: auto; margin: 0; }
   .post > article > .clearfix { grid-column: 1; grid-row: 1; min-width: 0; }
   .post > article > .social { grid-column: 1 / -1; }
   .profile .more-info .profile-laboratory-name { display: block; }
+  .about-introduction { max-width: none; }
+  .about-research-area { padding: 1rem 1.5rem; margin-bottom: 1.1rem; border-color: color-mix(in srgb, var(--global-divider-color) 70%, var(--global-bg-color)); border-left-color: var(--global-theme-color); }
+  .about-research-area h3 { line-height: 1.35; margin-bottom: 0.6rem; }
+  .about-research-area > p { margin-bottom: 0.75rem; }
+  .about-research-area > .related-projects { margin-bottom: 0; padding-top: 0.15rem; }
 }
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .post > article > .profile { max-width: 22rem; }
 }
 @media (max-width: 575px) {
