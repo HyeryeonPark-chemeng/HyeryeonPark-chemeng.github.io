@@ -43,8 +43,11 @@ _styles: |
   .research-project-group--additional .research-project-summary { font-size: 0.95rem; line-height: 1.7; margin-bottom: 0.9rem; }
   #stretchable-optical-films-nrf-project .research-project-methods { font-size: 0.85rem; line-height: 1.5; margin: 0; color: color-mix(in srgb, var(--global-text-color) 65%, var(--global-bg-color)); }
   #stretchable-optical-films-nrf-project .research-project-methods span { font-weight: 500; }
+  #magnetic-field-directed-particle-patterning .research-project-methods { font-size: 0.85rem; line-height: 1.5; margin: 0; color: color-mix(in srgb, var(--global-text-color) 65%, var(--global-bg-color)); }
+  #magnetic-field-directed-particle-patterning .research-project-methods span { font-weight: 500; }
   @media (min-width: 768px) {
     #stretchable-optical-films-nrf-project { grid-template-columns: 32% minmax(0, 1fr); }
+    #magnetic-field-directed-particle-patterning { grid-template-columns: 32% minmax(0, 1fr); }
   }
   .research-details-toggle { padding: 0; border: 0; background: transparent; color: var(--global-text-color); font-family: inherit; font-size: 0.85rem; cursor: pointer; text-decoration: underline; text-decoration-color: var(--global-divider-color); text-underline-offset: 0.2em; }
   .research-details-toggle:hover { color: var(--global-theme-color); text-decoration-color: currentColor; }

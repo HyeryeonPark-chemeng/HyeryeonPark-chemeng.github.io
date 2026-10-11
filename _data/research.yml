@@ -72,12 +72,16 @@ projects:
     description: >-
       Developing transparent, stretchable adhesive films for free-form displays through elastomeric resin design and biomimetic surface patterning. Initial formulation screening evaluated adhesion, tensile behavior, stress relaxation, optical transparency, and cyclic strain recovery, while ongoing work focuses on highly elastic PUA materials and inkjet-based micropatterning.
     links: []
-  - title: Magnetic-Field-Directed Particle Patterning
+  - title: Magnetic-Field-Directed Particle Patterning in Organic Thin Films
     interest_anchor: processing-structure-property
     id: magnetic-field-directed-particle-patterning
     group: additional
-    period: ""
-    image: ""
-    image_alt: ""
-    description: ""
+    period: Mar 2026 – Present
+    funding: Ministry of Science and ICT (MSIT), Korea
+    methods: Particle surface functionalization · Functional-group design · Magnetic trapping · Field-driven particle localization
+    image_zoom: true
+    image: /assets/img/magnetic-particle-patterning-schematic.jpg
+    image_alt: Schematic of particle surface functionalization with selected functional groups, magnetic-field-driven particle redistribution, and UV curing to fix the particle distribution.
+    description: >-
+      Developing surface-functionalized ferromagnetic particles for magnetic-field-directed patterning in organic thin films. My work focuses on identifying functional groups for particle surface modification and investigating magnetic trapping and field-driven particle localization within polymer matrices.
     links: []
