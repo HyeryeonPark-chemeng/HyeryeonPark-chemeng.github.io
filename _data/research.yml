@@ -40,21 +40,32 @@ projects:
     description: >-
       Investigating how shear flow can be used to control nanorod orientation in pressure-sensitive adhesive films. The project combines nanorod aspect-ratio design, surface functionalization, and resin rheology to establish processing conditions that promote directional alignment and potentially improve impact-energy distribution while preserving optical transparency.
     links: []
-  - title: Fuel-Cell Adhesive Durability
+  - title: Long-Term Reliability of Adhesive Interfaces in Fuel-Cell MEAs
     interest_anchor: interfacial-reliability
     id: fuel-cell-adhesive-durability
     group: featured
-    detail_background: ""
-    detail_approach: ""
-    detail_significance: ""
+    detail_background: >-
+      Reliable sealing is essential to maintaining mechanical integrity and stable operation in proton-exchange-membrane fuel cells, yet adhesive interfaces are exposed simultaneously to electrochemical, chemical, and thermal stresses during service. This work examines how these coupled environments alter interfacial adhesion and shift failure pathways over extended operation.
+    detail_approach: >-
+      Accelerated aging protocols were designed to isolate and combine electrochemical, acidic, radical-induced, and temperature-cycling stresses relevant to fuel-cell operation. Time-resolved peel testing was integrated with FT-IR, AFM, FE-SEM/EDS, contact-angle, and water-uptake analyses to track changes in adhesive and membrane interfaces and distinguish transitions in failure mode over prolonged exposure.
+    detail_significance: >-
+      The study revealed that sealing degradation evolves through distinct interfacial failure regimes rather than following a single degradation pathway. Electrochemical, chemical, and thermal stresses interact to alter both adhesive–membrane integrity and membrane stability over time, highlighting the need for multifactorial reliability evaluation when designing durable polymer interfaces for fuel-cell systems.
     detail_figures: []
-    period: ""
+    period: Jul 2024 – Present
+    funding: Hyundai Motor Group
+    methods: Accelerated degradation · Interfacial adhesion · Multi-stress reliability · Failure-mode analysis · Polymer interface characterization
     image: ""
     image_alt: ""
-    description: ""
-    links:
-      - label: Paper
-        url: ""
+    description: >-
+      Investigated the long-term durability of adhesive interfaces in proton-exchange-membrane fuel-cell assemblies under accelerated operating conditions. I designed multi-stress degradation protocols combining electrochemical, chemical, and thermal stresses and analyzed time-dependent changes in interfacial adhesion and failure mode to identify mechanisms governing sealing reliability.
+    links: []
+    papers:
+      - citation: >-
+          JW. Kim<sup><strong>†</strong></sup>, <strong>HR. Park</strong><sup><strong>†</strong></sup>, WJ. Choi, YE. Yun and JH. Lee*, Deciphering the long-term failure mechanism of the sealing framework in a proton exchange membrane fuel cell by assessing multi-stress degradation under accelerated simulated operating conditions. <em>Chemical Engineering Journal</em>, 2026, 538, 177005.
+        url: https://doi.org/10.1016/j.cej.2026.177005
+      - citation: >-
+          JW. Kim<sup><strong>†</strong></sup>, DH. Kim<sup><strong>†</strong></sup>, <strong>HR. Park</strong>, GJ. Shin and JH. Lee*, Temperature-mediated controllable colorless polymer nanocomposite adhesives with remarkable optical transparency using sodium bicarbonate-embedded thermosensitive nanoparticles. <em>Chemical Engineering Journal</em>, 2025, 516, 164090.
+        url: https://doi.org/10.1016/j.cej.2025.164090
   - title: Dual-Network Acrylic Adhesives
     interest_anchor: interfacial-reliability
     id: dual-network-acrylic-adhesives

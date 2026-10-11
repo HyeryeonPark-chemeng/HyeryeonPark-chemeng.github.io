@@ -26,9 +26,16 @@
     button.addEventListener("click", () => setExpanded(button, button.getAttribute("aria-expanded") !== "true"));
   });
   document.querySelectorAll("[data-output-details]").forEach((link) => {
-    link.addEventListener("click", () => {
+    link.addEventListener("click", (event) => {
       const button = document.querySelector(`[aria-controls="${link.dataset.outputDetails}"]`);
       if (button) setExpanded(button, true, false);
+      const focusTarget = document.getElementById(link.dataset.outputFocus);
+      if (focusTarget) {
+        event.preventDefault();
+        if (window.location.hash !== link.hash) window.history.pushState(null, "", link.hash);
+        focusTarget.focus({ preventScroll: true });
+        focusTarget.scrollIntoView({ block: "start" });
+      }
     });
   });
   function revealHash() {

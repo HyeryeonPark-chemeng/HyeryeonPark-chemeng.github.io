@@ -49,6 +49,8 @@ _styles: |
   #surface-segregation-of-nanoparticles .research-project-methods span { font-weight: 500; }
   #shear-directed-nanorod-alignment .research-project-methods { font-size: 0.85rem; line-height: 1.5; margin: 0 0 1.25rem; color: color-mix(in srgb, var(--global-text-color) 65%, var(--global-bg-color)); }
   #shear-directed-nanorod-alignment .research-project-methods span { font-weight: 500; }
+  #fuel-cell-adhesive-durability .research-project-methods { font-size: 0.85rem; line-height: 1.5; margin: 0 0 1.25rem; color: color-mix(in srgb, var(--global-text-color) 65%, var(--global-bg-color)); }
+  #fuel-cell-adhesive-durability .research-project-methods span { font-weight: 500; }
   @media (min-width: 768px) {
     #stretchable-optical-films-nrf-project { grid-template-columns: 32% minmax(0, 1fr); }
     #magnetic-field-directed-particle-patterning { grid-template-columns: 32% minmax(0, 1fr); }
@@ -68,6 +70,14 @@ _styles: |
   .research-detail-figure-placeholder span, .research-detail-figure-placeholder small { font-size: 0.85rem; color: color-mix(in srgb, var(--global-text-color) 60%, var(--global-bg-color)); }
   .research-detail-outputs { list-style: none; padding: 0; margin: 0; font-size: 0.85rem; }
   .research-detail-outputs li { scroll-margin-top: 5rem; }
+  .research-related-papers { margin-top: 1.5rem; }
+  .research-related-papers h4 { font-size: 1.1rem; font-weight: 600; line-height: 1.4; margin: 0 0 0.75rem; scroll-margin-top: 5rem; }
+  .research-related-papers ul { padding-left: 1.2rem; margin: 0; font-size: 0.9rem; line-height: 1.7; }
+  .research-related-papers li + li { margin-top: 0.75rem; }
+  .research-related-papers strong { font-weight: 700; }
+  .research-related-papers a { color: var(--global-text-color); text-decoration: underline; text-decoration-color: var(--global-divider-color); text-underline-offset: 0.2em; }
+  .research-related-papers a:hover { color: var(--global-theme-color); text-decoration-color: currentColor; }
+  .research-related-papers :focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
   @media (max-width: 767px) {
     .research-details-inner { padding: 1.25rem; }
     .research-detail-figures { grid-template-columns: minmax(0, 1fr); }
@@ -130,6 +140,11 @@ _styles: |
             {% endfor %}
           </ul>
           {% endif %}
+          {% if project.papers.size > 0 and group == 'featured' %}
+          <ul class="research-project-links" aria-label="Related publications">
+            <li><a href="#{{ project.id }}-related-papers" data-output-details="{{ project.id }}-details" data-output-focus="{{ project.id }}-related-papers">Papers</a></li>
+          </ul>
+          {% endif %}
           {% if group == 'featured' %}
           <button class="research-details-toggle" type="button" aria-expanded="false" aria-controls="{{ project.id }}-details">More details ↓</button>
           {% endif %}
@@ -153,6 +168,16 @@ _styles: |
             {% endfor %}
             {% endif %}
           </div>
+          {% if project.papers.size > 0 %}
+          <section class="research-related-papers" aria-labelledby="{{ project.id }}-related-papers">
+            <h4 id="{{ project.id }}-related-papers" tabindex="-1">Related Papers</h4>
+            <ul>
+              {% for paper in project.papers %}
+              <li><a href="{{ paper.url | escape }}" target="_blank" rel="noopener noreferrer">{{ paper.citation }}</a></li>
+              {% endfor %}
+            </ul>
+          </section>
+          {% endif %}
           {% if project.links.size > 0 %}
           <ul class="research-detail-outputs" aria-label="Project output links">
             {% for link in project.links %}
