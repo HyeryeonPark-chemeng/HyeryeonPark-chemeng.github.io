@@ -35,6 +35,8 @@ _styles: |
   {% endfor %}
   <h2 class="year">Patent Applications</h2>
   <ul class="bibliography patent-applications">
-    <li>J. Lee, J. Kim, and <strong><u>H. Park</u></strong>, Korean Patent Application No. 10-2026-0040065, filed March 5, 2026. (Co-inventor)</li>
+    {% for application in site.data.cv.cv.sections['PATENT APPLICATIONS'] %}
+    <li>{{ application.bullet | replace: '<strong>HR. Park</strong>', '<strong><u>HR. Park</u></strong>' }}</li>
+    {% endfor %}
   </ul>
 </div>
