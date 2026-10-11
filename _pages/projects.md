@@ -41,6 +41,10 @@ _styles: |
   .research-project-group--additional .research-figure-placeholder { min-height: 100px; width: calc(100% - 2rem); }
   .research-project-group--additional .research-project-meta { margin-bottom: 0.9rem; }
   .research-project-group--additional .research-project-summary { font-size: 0.95rem; line-height: 1.7; margin-bottom: 0.9rem; }
+  #stretchable-optical-films-nrf-project .research-project-methods { font-size: 0.85rem; line-height: 1.5; margin: 0; color: color-mix(in srgb, var(--global-text-color) 65%, var(--global-bg-color)); }
+  #stretchable-optical-films-nrf-project .research-project-methods span { font-weight: 500; }
+  #stretchable-optical-films-nrf-project .research-project-visual:has(figcaption) { flex-direction: column; }
+  #stretchable-optical-films-nrf-project figcaption { font-size: 0.8rem; line-height: 1.5; padding: 0.75rem; color: color-mix(in srgb, var(--global-text-color) 65%, var(--global-bg-color)); }
   .research-details-toggle { padding: 0; border: 0; background: transparent; color: var(--global-text-color); font-family: inherit; font-size: 0.85rem; cursor: pointer; text-decoration: underline; text-decoration-color: var(--global-divider-color); text-underline-offset: 0.2em; }
   .research-details-toggle:hover { color: var(--global-theme-color); text-decoration-color: currentColor; }
   .research-details-toggle:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
@@ -84,7 +88,8 @@ _styles: |
     <article class="research-project-card" id="{{ project.id }}" aria-labelledby="{{ project.id }}-title">
       <figure class="research-project-visual">
         {% if project.image != '' %}
-        <img src="{{ project.image | relative_url }}" alt="{{ project.image_alt | escape }}" loading="lazy">
+        <img src="{{ project.image | relative_url }}" alt="{{ project.image_alt | escape }}" loading="lazy"{% if project.image_zoom %} data-zoomable{% endif %}>
+        {% if project.image_caption %}<figcaption>{{ project.image_caption }}</figcaption>{% endif %}
         {% else %}
         <div class="research-figure-placeholder" role="img" aria-label="Scientific figure placeholder for {{ project.title | escape }}">
           <span>Representative figure</span>
@@ -94,7 +99,7 @@ _styles: |
       </figure>
       <div class="research-project-content">
         <h3 id="{{ project.id }}-title">{{ project.title }}</h3>
-        <p class="research-project-meta">{{ project.period | default: 'Period / project metadata to be added' }}</p>
+        <p class="research-project-meta">{{ project.period | default: 'Period / project metadata to be added' }}{% if project.funding %} · {{ project.funding }}{% endif %}</p>
         <p class="research-project-summary">
           {% if project.description != '' %}
           {{ project.description }}
@@ -104,6 +109,9 @@ _styles: |
           A brief overview of this research project will be added here.
           {% endif %}
         </p>
+        {% if project.methods %}
+        <p class="research-project-methods"><span>Methods / Focus:</span> {{ project.methods }}</p>
+        {% endif %}
         {% if project.links.size > 0 or group == 'featured' %}
         <div class="research-project-actions">
           {% if project.output_note %}<span class="research-project-output-note">{{ project.output_note }}</span>{% endif %}

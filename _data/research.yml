@@ -59,14 +59,19 @@ projects:
     links:
       - label: Paper
         url: ""
-  - title: Stretchable Optical Films / NRF Project
+  - title: Stretchable Optical Films with Biomimetic Surface Patterns
     interest_anchor: processing-structure-property
     id: stretchable-optical-films-nrf-project
     group: additional
-    period: ""
-    image: ""
-    image_alt: ""
-    description: ""
+    period: Sep 2025 – Aug 2026
+    funding: NRF Master’s Research Grant
+    methods: PUA/UA resin design · Mechanical recovery · Optical transparency · Inkjet patterning
+    image_caption: Conceptual fabrication process for a snake-skin-inspired stretchable adhesive film using PUA mesh structures and optically clear acrylic resin.
+    image_zoom: true
+    image: /assets/img/stretchable-optical-films-schematic.jpg
+    image_alt: Schematic of inkjet-printable PUA formulation design, refractive-index matching, mesh printing and UV curing, transfer to PET, and acrylic OCR printing and curing.
+    description: >-
+      Developing transparent, stretchable adhesive films for free-form displays through elastomeric resin design and biomimetic surface patterning. Initial formulation screening evaluated adhesion, tensile behavior, stress relaxation, optical transparency, and cyclic strain recovery, while ongoing work focuses on highly elastic PUA materials and inkjet-based micropatterning.
     links: []
   - title: Magnetic-Field-Directed Particle Patterning
     interest_anchor: processing-structure-property
