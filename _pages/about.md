@@ -6,7 +6,7 @@ subtitle: Master's Student in Chemical Engineering, Soongsil University
 
 profile:
   align: right
-  image: hyeryeon-park-profile.jpg
+  image: hyeryeon-park-id-photo.jpg
   image_circular: false
   more_info: >
     <p>Department of Chemical Engineering</p>
@@ -82,7 +82,7 @@ My work examines how <strong>interfacial phenomena and processing conditions gov
       {% if page.research_project_links.enabled %}
       <a href="{{ page.research_project_links.assembly | relative_url }}"><em>Related research projects →</em></a>
       {% else %}
-      <a class="future-project-link" href="{{ '/projects/' | relative_url }}" data-future-href="{{ page.research_project_links.assembly | relative_url }}"><em>Related research projects →</em></a>
+      <a class="future-project-link" href="{{ '/research/' | relative_url }}" data-future-href="{{ page.research_project_links.assembly | relative_url }}"><em>Related research projects →</em></a>
       {% endif %}
     </p>
   </section>
@@ -94,7 +94,7 @@ My work examines how <strong>interfacial phenomena and processing conditions gov
       {% if page.research_project_links.enabled %}
       <a href="{{ page.research_project_links.reliability | relative_url }}"><em>Related research projects →</em></a>
       {% else %}
-      <a class="future-project-link" href="{{ '/projects/' | relative_url }}" data-future-href="{{ page.research_project_links.reliability | relative_url }}"><em>Related research projects →</em></a>
+      <a class="future-project-link" href="{{ '/research/' | relative_url }}" data-future-href="{{ page.research_project_links.reliability | relative_url }}"><em>Related research projects →</em></a>
       {% endif %}
     </p>
   </section>
@@ -106,7 +106,7 @@ My work examines how <strong>interfacial phenomena and processing conditions gov
       {% if page.research_project_links.enabled %}
       <a href="{{ page.research_project_links.processing | relative_url }}"><em>Related research projects →</em></a>
       {% else %}
-      <a class="future-project-link" href="{{ '/projects/' | relative_url }}" data-future-href="{{ page.research_project_links.processing | relative_url }}"><em>Related research projects →</em></a>
+      <a class="future-project-link" href="{{ '/research/' | relative_url }}" data-future-href="{{ page.research_project_links.processing | relative_url }}"><em>Related research projects →</em></a>
       {% endif %}
     </p>
   </section>

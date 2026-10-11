@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research
-permalink: /projects/
+permalink: /research/
 description: Selected research projects highlighting my work in particle organization, interfacial mechanics, and processing–structure–property relationships in polymeric materials.
 nav: true
 nav_order: 2
