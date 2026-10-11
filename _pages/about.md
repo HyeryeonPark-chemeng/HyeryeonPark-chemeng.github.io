@@ -51,18 +51,22 @@ research_project_links:
 .about-research-area .related-projects a:hover { color: var(--global-theme-color); text-decoration-color: currentColor; text-decoration-thickness: 2px; }
 .about-research-area .related-projects a em { color: inherit; }
 .about-research-area .related-projects a:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
-.post > article > .profile { float: none !important; width: 100%; margin: 0 0 1.25rem; }
+.about-profile-layout > .profile { float: none !important; width: 100%; margin: 0 0 1.25rem; }
 .profile .more-info { font-family: inherit; font-size: 0.9rem; font-weight: 400; line-height: 1.55; margin-top: 0.75rem; }
 .profile .more-info p { display: block; }
 .profile .more-info .profile-metadata-label { font-weight: 500; }
 .profile .more-info .profile-advisor { margin-top: 0.65rem; }
-.post > .post-header .post-title, .post > .post-header .post-title span { font-weight: 700; }
-.post > .post-header { padding-bottom: 0.75rem; margin-bottom: 1.25rem; border-bottom: 1px solid var(--global-divider-color); }
+.about-profile-main > .post-header .post-title, .about-profile-main > .post-header .post-title span { font-weight: 700; }
+.about-profile-main > .post-header { padding-bottom: 0.75rem; margin-bottom: 1.25rem; border-bottom: 1px solid var(--global-divider-color); }
+.about-profile-layout { display: flex; flex-direction: column; }
+.about-profile-main { display: contents; }
+.about-profile-main > .post-header { order: 0; }
+.about-profile-layout > .profile { order: 1; }
+.about-profile-narrative { order: 2; }
 @media (min-width: 992px) {
-  .post > article { display: grid; grid-template-columns: minmax(0, 1fr) minmax(16.5rem, 30%); column-gap: 6%; align-items: start; }
-  .post > article > .profile { grid-column: 2; grid-row: 1; width: auto; margin: 0; }
-  .post > article > .clearfix { grid-column: 1; grid-row: 1; min-width: 0; }
-  .post > article > .social { grid-column: 1 / -1; }
+  .about-profile-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(16.5rem, 30%); column-gap: 6%; align-items: start; }
+  .about-profile-layout > .profile { width: auto; margin: 0; }
+  .about-profile-main { display: block; min-width: 0; }
   .profile .more-info .profile-laboratory-name { display: block; }
   .about-introduction { max-width: none; }
   .about-research-area { padding: 1rem 1.5rem; margin-bottom: 1.1rem; border-color: color-mix(in srgb, var(--global-divider-color) 70%, var(--global-bg-color)); border-left-color: var(--global-theme-color); }
@@ -71,7 +75,7 @@ research_project_links:
   .about-research-area > .related-projects { margin-bottom: 0; padding-top: 0.15rem; }
 }
 @media (min-width: 576px) and (max-width: 991px) {
-  .post > article > .profile { max-width: 22rem; }
+  .about-profile-layout > .profile { max-width: 22rem; }
 }
 @media (max-width: 575px) {
   .about-research { padding-top: 1rem; }
@@ -99,6 +103,8 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 </script>
+
+<!-- about-research-section -->
 
 <div class="about-research">
   <h2>Research Interests</h2>
