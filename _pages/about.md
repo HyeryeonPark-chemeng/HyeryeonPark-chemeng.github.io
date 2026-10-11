@@ -52,6 +52,7 @@ research_project_links:
 .about-research-area .related-projects a em { color: inherit; }
 .about-research-area .related-projects a:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
 .about-profile-layout > .profile { float: none !important; width: 100%; margin: 0 0 1.25rem; }
+.about-profile-layout > .profile img { transform: scale(0.95); transform-origin: center bottom; }
 .profile .more-info { font-family: inherit; font-size: 0.9rem; font-weight: 400; line-height: 1.55; margin-top: 0.75rem; }
 .profile .more-info p { display: block; }
 .profile .more-info .profile-metadata-label { font-weight: 500; }
