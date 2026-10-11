@@ -9,6 +9,8 @@ _styles: |
   .post-header .post-title { font-weight: 700; }
   .post-header .post-description { max-width: 78ch; line-height: 1.7; margin-top: 0.75rem; }
   .research-projects { margin-top: 2.5rem; }
+  .research-interest-projects { scroll-margin-top: 5rem; }
+  .research-project-output-note { font-size: 0.85rem; line-height: 1.5; color: color-mix(in srgb, var(--global-text-color) 65%, var(--global-bg-color)); }
   .research-project-group + .research-project-group { margin-top: 3rem; }
   .research-project-group > h2 { font-size: 1.65rem; font-weight: 600; line-height: 1.35; margin-bottom: 1.5rem; }
   .research-project-card { scroll-margin-top: 5rem; display: grid; grid-template-columns: 32% minmax(0, 1fr); overflow: hidden; border: 1px solid var(--global-divider-color); border-left: 2px solid var(--global-theme-color); border-radius: 3px; background: color-mix(in srgb, var(--global-text-color) 1.5%, var(--global-bg-color)); margin-bottom: 1.5rem; }
@@ -74,7 +76,11 @@ _styles: |
   <section class="research-project-group research-project-group--{{ group }}" aria-labelledby="{{ group }}-research-heading">
     <h2 id="{{ group }}-research-heading">{% if group == 'featured' %}Featured Research{% else %}Additional Research Projects{% endif %}</h2>
     {% assign projects = site.data.research.projects | where: 'group', group %}
-    {% for project in projects %}
+    {% assign interest_groups = projects | map: 'interest_anchor' | uniq %}
+    {% for interest_group in interest_groups %}
+    <div class="research-interest-projects" id="{{ interest_group }}">
+    {% assign interest_projects = projects | where: 'interest_anchor', interest_group %}
+    {% for project in interest_projects %}
     <article class="research-project-card" id="{{ project.id }}" aria-labelledby="{{ project.id }}-title">
       <figure class="research-project-visual">
         {% if project.image != '' %}
@@ -100,6 +106,7 @@ _styles: |
         </p>
         {% if project.links.size > 0 or group == 'featured' %}
         <div class="research-project-actions">
+          {% if project.output_note %}<span class="research-project-output-note">{{ project.output_note }}</span>{% endif %}
           {% if project.links.size > 0 %}
           <ul class="research-project-links" aria-label="Project outputs">
             {% for link in project.links %}
@@ -141,6 +148,8 @@ _styles: |
       </div>
       {% endif %}
     </article>
+    {% endfor %}
+    </div>
     {% endfor %}
   </section>
   {% endfor %}

@@ -12,6 +12,8 @@ profile:
     <p>Department of Chemical Engineering</p>
     <p>Soongsil University</p>
     <p>Seoul, Republic of Korea</p>
+    <p class="profile-advisor">Advisor: Jun Hyup Lee</p>
+    <p>Laboratory: Nano/Micro Engineering Laboratory</p>
 
 selected_papers: false
 social: true
@@ -26,11 +28,11 @@ latest_posts:
   scrollable: true
   limit: 3
 
-# Enable after the Research page and matching project anchors are created.
+# Research-interest links target stable project groups on the Research page.
 research_project_links:
-  enabled: false
-  assembly: /research/#directed-particle-assembly
-  reliability: /research/#interfacial-mechanics-reliability
+  enabled: true
+  assembly: /research/#particle-assembly
+  reliability: /research/#interfacial-reliability
   processing: /research/#processing-structure-property
 ---
 
@@ -50,6 +52,7 @@ research_project_links:
 .about-research-area .related-projects a em { color: inherit; }
 .about-research-area .related-projects a:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
 .profile .more-info { font-size: 0.85rem; }
+.profile .more-info .profile-advisor { margin-top: 0.65rem; }
 .post > .post-header .post-title, .post > .post-header .post-title span { font-weight: 700; }
 .post > .post-header { padding-bottom: 0.75rem; margin-bottom: 1.25rem; border-bottom: 1px solid var(--global-divider-color); }
 @media (min-width: 576px) {

@@ -2,6 +2,7 @@
 # Link items may use: label: Paper, url: https://...
 projects:
   - title: Surface Segregation of Nanoparticles
+    interest_anchor: particle-assembly
     id: surface-segregation-of-nanoparticles
     group: featured
     detail_background: ""
@@ -13,10 +14,10 @@ projects:
     image_alt: ""
     description: >-
       Investigated the interfacial driving forces governing spontaneous surface segregation of surface-modified nanoparticles in polymer thin films. Designed nanoparticle surface-modification strategies and quantified through-thickness particle distributions to establish relationships between segregation behavior and mechanical and optical performance.
-    links:
-      - label: Patent
-        url: ""
+    output_note: "Research output: Korean patent application filed (2026)"
+    links: []
   - title: Shear-Directed Nanorod Alignment
+    interest_anchor: particle-assembly
     id: shear-directed-nanorod-alignment
     group: featured
     detail_background: ""
@@ -29,6 +30,7 @@ projects:
     description: ""
     links: []
   - title: Fuel-Cell Adhesive Durability
+    interest_anchor: interfacial-reliability
     id: fuel-cell-adhesive-durability
     group: featured
     detail_background: ""
@@ -43,6 +45,7 @@ projects:
       - label: Paper
         url: ""
   - title: Dual-Network Acrylic Adhesives
+    interest_anchor: interfacial-reliability
     id: dual-network-acrylic-adhesives
     group: featured
     detail_background: ""
@@ -57,6 +60,7 @@ projects:
       - label: Paper
         url: ""
   - title: Stretchable Optical Films / NRF Project
+    interest_anchor: processing-structure-property
     id: stretchable-optical-films-nrf-project
     group: additional
     period: ""
@@ -65,6 +69,7 @@ projects:
     description: ""
     links: []
   - title: Magnetic-Field-Directed Particle Patterning
+    interest_anchor: processing-structure-property
     id: magnetic-field-directed-particle-patterning
     group: additional
     period: ""
