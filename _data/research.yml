@@ -66,7 +66,6 @@ projects:
     period: Sep 2025 – Aug 2026
     funding: NRF Master’s Research Grant
     methods: PUA/UA resin design · Mechanical recovery · Optical transparency · Inkjet patterning
-    image_caption: Conceptual fabrication process for a snake-skin-inspired stretchable adhesive film using PUA mesh structures and optically clear acrylic resin.
     image_zoom: true
     image: /assets/img/stretchable-optical-films-schematic.jpg
     image_alt: Schematic of inkjet-printable PUA formulation design, refractive-index matching, mesh printing and UV curing, transfer to PET, and acrylic OCR printing and curing.
