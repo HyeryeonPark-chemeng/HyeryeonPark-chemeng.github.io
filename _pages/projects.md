@@ -51,6 +51,8 @@ _styles: |
   #shear-directed-nanorod-alignment .research-project-methods span { font-weight: 500; }
   #fuel-cell-adhesive-durability .research-project-methods { font-size: 0.85rem; line-height: 1.5; margin: 0 0 1.25rem; color: color-mix(in srgb, var(--global-text-color) 65%, var(--global-bg-color)); }
   #fuel-cell-adhesive-durability .research-project-methods span { font-weight: 500; }
+  #dual-network-acrylic-adhesives .research-project-methods { font-size: 0.85rem; line-height: 1.5; margin: 0 0 1.25rem; color: color-mix(in srgb, var(--global-text-color) 65%, var(--global-bg-color)); }
+  #dual-network-acrylic-adhesives .research-project-methods span { font-weight: 500; }
   @media (min-width: 768px) {
     #stretchable-optical-films-nrf-project { grid-template-columns: 32% minmax(0, 1fr); }
     #magnetic-field-directed-particle-patterning { grid-template-columns: 32% minmax(0, 1fr); }
@@ -173,7 +175,7 @@ _styles: |
             <h4 id="{{ project.id }}-related-papers" tabindex="-1">Related Papers</h4>
             <ul>
               {% for paper in project.papers %}
-              <li><a href="{{ paper.url | escape }}" target="_blank" rel="noopener noreferrer">{{ paper.citation }}</a></li>
+              <li>{% if paper.url and paper.url != '' %}<a href="{{ paper.url | escape }}" target="_blank" rel="noopener noreferrer">{{ paper.citation }}</a>{% else %}{{ paper.citation }}{% endif %}</li>
               {% endfor %}
             </ul>
           </section>

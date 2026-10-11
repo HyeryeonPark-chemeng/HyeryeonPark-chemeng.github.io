@@ -66,21 +66,31 @@ projects:
       - citation: >-
           JW. Kim<sup><strong>†</strong></sup>, DH. Kim<sup><strong>†</strong></sup>, <strong>HR. Park</strong>, GJ. Shin and JH. Lee*, Temperature-mediated controllable colorless polymer nanocomposite adhesives with remarkable optical transparency using sodium bicarbonate-embedded thermosensitive nanoparticles. <em>Chemical Engineering Journal</em>, 2025, 516, 164090.
         url: https://doi.org/10.1016/j.cej.2025.164090
-  - title: Dual-Network Acrylic Adhesives
+  - title: Dual-Network Acrylic Adhesives for Mechanical Recovery
     interest_anchor: interfacial-reliability
     id: dual-network-acrylic-adhesives
     group: featured
-    detail_background: ""
-    detail_approach: ""
-    detail_significance: ""
+    detail_background: >-
+      Optical adhesive films for flexible displays must maintain transparency and interfacial adhesion while repeatedly recovering from mechanical deformation. Conventional crosslinking can improve elasticity but often restricts polymer-chain mobility, creating trade-offs among recovery, adhesion, stress relaxation, and optical uniformity. This project investigates whether hierarchical network design can balance these competing requirements.
+    detail_approach: >-
+      Photoreactive elastic nano-crosslinkers with a silica core and flexible polymer shell were incorporated into an acrylic matrix to form a nanoscale elastic network, while a low-molecular-weight molecular-bridge crosslinker was introduced to enhance network connectivity. By comparing nano-crosslinker-only, molecular-crosslinker-only, and dual-network films, the individual and synergistic contributions of each network component were evaluated through adhesion, tensile, stress-relaxation, strain-recovery, cyclic loading–unloading, and optical measurements.
+    detail_significance: >-
+      The dual-network architecture enabled mechanical recovery and cyclic stability to be improved without sacrificing the optical clarity and adhesion required for display applications. The results show that recovery performance is governed not simply by crosslink density, but by how nanoscale elastic reinforcement and molecular-scale connectivity cooperate to store, transfer, and recover deformation energy.
     detail_figures: []
-    period: ""
+    period: May 2026 – Aug 2026
+    methods: Elastic nano-crosslinkers · Dual-network design · Stress relaxation · Strain recovery · Optical/adhesive performance
     image: ""
     image_alt: ""
-    description: ""
-    links:
-      - label: Paper
+    description: >-
+      Developed dual-network acrylic adhesive films that combine nanoparticle-mediated elastic reinforcement with molecular-scale crosslinking to improve mechanical recovery under repeated deformation. By separating the roles of elastic nano-crosslinkers and molecular-bridge crosslinkers, I established structure–property relationships linking network architecture to strain recovery, stress relaxation, adhesion, and optical transparency.
+    links: []
+    papers:
+      - citation: >-
+          <strong>HR. Park</strong><sup><strong>†</strong></sup>, JW. Kim<sup>†</sup>, JI. An<sup>†</sup>, WJ. Choi, YE. Yun and JH. Lee*, A Synergistic Dual-Network Strategy for Highly Recoverable and Optically Transparent Acrylic Adhesive Films. <em>ACS Applied Polymer Materials</em>, Under Review.
         url: ""
+      - citation: >-
+          SY. Yang<sup><strong>†</strong></sup>, JW. Kim<sup><strong>†</strong></sup>, <strong>HR. Park</strong>, GJ. Shin and JH. Lee*, Highly stretchable and transparent hybrid double-network acrylic nanocomposite adhesive based on the synergy between stretchable silica nanoparticles and multifunctional dual crosslinkers. <em>European Polymer Journal</em>, 2025, 235, 114071.
+        url: https://doi.org/10.1016/j.eurpolymj.2025.114071
   - title: Stretchable Optical Films with Biomimetic Surface Patterns
     interest_anchor: processing-structure-property
     id: stretchable-optical-films-nrf-project
