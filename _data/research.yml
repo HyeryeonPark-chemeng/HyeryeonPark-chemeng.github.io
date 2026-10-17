@@ -11,7 +11,13 @@ projects:
       Silica nanoparticles were sequentially functionalized with GPTMS and PPGMA to tune their surface chemistry and incorporated into a low-viscosity acrylic PSA designed to permit particle redistribution during thermal treatment. OWRK-based surface-energy analysis and cross-sectional SEM/EDS profiling were combined to relate surface chemistry, processing temperature, and particle loading to through-thickness particle localization.
     detail_significance: >-
       The results demonstrate that nanoparticle localization can be tuned through surface chemistry and thermal processing, enabling spatially selective reinforcement within a single polymer layer. Increased surface enrichment improved impact resistance while revealing trade-offs with adhesion and optical transparency. Ongoing work is examining the relative contributions of interfacial energetics and thermally driven particle transport to the observed redistribution.
-    detail_figures: []
+    detail_figures:
+      - image: /assets/img/surface-segregation-detail-1.jpg
+        alt: Cross-sectional SEM images and silicon EDS intensity profiles for heat-treated pristine silica, Silica@GPTMS, and IRSN films at 1 wt%, with the top 25% of film thickness marked.
+        zoom: true
+      - image: /assets/img/surface-segregation-detail-2.jpg
+        alt: Bar charts comparing surface segregation ratio and ball-drop impact resistance for no-heat and 40–70 °C processing conditions, with even and surface-rich particle distributions indicated.
+        zoom: true
     period: Jun 2024 – Present
     funding: Nissan Chemical Korea (NCK)
     methods: Surface functionalization · Interfacial energetics · Through-thickness particle analysis · Thermal processing · Impact resistance

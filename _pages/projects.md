@@ -143,7 +143,7 @@ _styles: |
           <div class="research-detail-figures">
             {% if project.detail_figures.size > 0 %}
             {% for figure in project.detail_figures limit: 2 %}
-            <figure><img src="{{ figure.image | relative_url }}" alt="{{ figure.alt | escape }}" loading="lazy">{% if figure.caption %}<figcaption>{{ figure.caption }}</figcaption>{% endif %}</figure>
+            <figure><img src="{{ figure.image | relative_url }}" alt="{{ figure.alt | escape }}" loading="lazy"{% if figure.zoom %} data-zoomable{% endif %}>{% if figure.caption %}<figcaption>{{ figure.caption }}</figcaption>{% endif %}</figure>
             {% endfor %}
             {% else %}
             {% for number in (1..2) %}
