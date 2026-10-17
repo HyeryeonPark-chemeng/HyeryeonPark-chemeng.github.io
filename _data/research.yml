@@ -63,8 +63,9 @@ projects:
     period: Jul 2024 – Present
     funding: Hyundai Motor Group
     methods: Accelerated degradation · Interfacial adhesion · Multi-stress reliability · Failure-mode analysis · Polymer interface characterization
-    image: ""
-    image_alt: ""
+    image_zoom: true
+    image: /assets/img/fuel-cell-adhesive-durability-schematic.jpg
+    image_alt: Exploded fuel-cell and membrane-electrode assembly schematics showing electrochemical, chemical, and thermal environments, an adhesive–membrane layer stack, and failure-mode transition.
     description: >-
       Investigated the long-term durability of adhesive interfaces in proton-exchange-membrane fuel-cell assemblies under accelerated operating conditions. I designed multi-stress degradation protocols combining electrochemical, chemical, and thermal stresses and analyzed time-dependent changes in interfacial adhesion and failure mode to identify mechanisms governing sealing reliability.
     links: []
