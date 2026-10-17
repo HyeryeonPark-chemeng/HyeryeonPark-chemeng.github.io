@@ -15,8 +15,9 @@ projects:
     period: Jun 2024 – Present
     funding: Nissan Chemical Korea (NCK)
     methods: Surface functionalization · Interfacial energetics · Through-thickness particle analysis · Thermal processing · Impact resistance
-    image: ""
-    image_alt: ""
+    image_zoom: true
+    image: /assets/img/surface-segregation-nanoparticles-schematic.jpg
+    image_alt: Schematic of surface-modified silica nanoparticles concentrating near an acrylic resin surface, an impact-resistant layer under ball-drop loading, and impact, transmittance, and peel-strength evaluations.
     description: >-
       Developed a single-layer impact-resistant pressure-sensitive adhesive by controlling nanoparticle localization near the film surface. I investigated how silica surface chemistry and thermal processing influence through-thickness particle redistribution and related surface enrichment to interfacial energetics, impact resistance, adhesion, and optical transparency.
     output_note: "Research output: Korean patent application filed (2026)"
