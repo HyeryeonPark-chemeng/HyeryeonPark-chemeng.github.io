@@ -53,6 +53,7 @@ _styles: |
   .research-projects .research-detail-figures figure { min-width: 0; margin: 0; }
   .research-projects .research-detail-figures img { width: 100%; height: auto; object-fit: contain; }
   .research-projects .research-detail-figures figcaption { font-size: 0.8rem; line-height: 1.6; margin-top: 0.5rem; color: var(--research-muted); }
+  .research-projects #surface-segregation-of-nanoparticles .research-detail-figures figcaption { font-style: italic; text-align: center; margin-top: 0.65rem; }
   .research-projects .research-detail-figure-placeholder { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 0.5rem; min-height: 120px; padding: 1rem; border-bottom: 1px solid var(--research-border); text-align: center; }
   .research-projects .research-detail-figure-placeholder span, .research-projects .research-detail-figure-placeholder small { font-size: 0.8rem; color: var(--research-muted); }
   .research-projects .research-detail-outputs { list-style: none; padding: 0; margin: 0; font-size: 0.85rem; }
