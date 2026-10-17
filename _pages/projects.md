@@ -49,6 +49,7 @@ _styles: |
   .research-projects .research-details-inner { padding: 1.75rem; }
   .research-projects .research-details-inner > p { max-width: 78ch; font-size: 0.95rem; line-height: 1.8; margin: 0 0 1rem; }
   .research-projects .research-detail-figures { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; margin: 1.5rem 0; }
+  .research-projects #surface-segregation-of-nanoparticles .research-detail-figures { grid-template-columns: minmax(0, 1fr) minmax(0, 1.8173076923fr); align-items: start; }
   .research-projects .research-detail-figures figure { min-width: 0; margin: 0; }
   .research-projects .research-detail-figures img { width: 100%; height: auto; object-fit: contain; }
   .research-projects .research-detail-figures figcaption { font-size: 0.8rem; line-height: 1.6; margin-top: 0.5rem; color: var(--research-muted); }
@@ -72,6 +73,8 @@ _styles: |
     .research-projects .research-project-group--additional .research-project-visual { margin: 1.25rem 1.25rem 0; }
     .research-projects .research-details-inner { padding: 1.25rem; }
     .research-projects .research-detail-figures { grid-template-columns: minmax(0, 1fr); }
+    .research-projects #surface-segregation-of-nanoparticles .research-detail-figures { grid-template-columns: minmax(0, 1fr); container-type: inline-size; }
+    .research-projects #surface-segregation-of-nanoparticles .research-detail-figures img { display: block; width: auto; max-width: 100%; height: calc(100cqw * 416 / 756); margin-inline: auto; }
   }
 ---
 
