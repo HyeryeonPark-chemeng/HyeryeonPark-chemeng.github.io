@@ -50,10 +50,17 @@ _styles: |
   .research-projects .research-details-inner > p { max-width: 78ch; font-size: 0.95rem; line-height: 1.8; margin: 0 0 1rem; }
   .research-projects .research-detail-figures { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; margin: 1.5rem 0; }
   .research-projects #surface-segregation-of-nanoparticles .research-detail-figures { grid-template-columns: minmax(0, 1fr) minmax(0, 1.8173076923fr); align-items: start; }
+  .research-projects #fuel-cell-adhesive-durability .research-detail-figures { grid-template-columns: minmax(0, 1.6397849462fr) minmax(0, 1.6490384615fr); align-items: start; }
+  .research-projects #fuel-cell-adhesive-durability .research-detail-viewport { position: relative; overflow: hidden; }
+  .research-projects #fuel-cell-adhesive-durability .research-detail-viewport img { position: absolute; max-width: none; height: auto; }
+  .research-projects #fuel-cell-adhesive-durability .research-detail-figures figure:first-child .research-detail-viewport { aspect-ratio: 610 / 372; }
+  .research-projects #fuel-cell-adhesive-durability .research-detail-figures figure:first-child .research-detail-viewport img { width: 111.4754098361%; left: -3.9344262295%; top: -13.4408602151%; }
+  .research-projects #fuel-cell-adhesive-durability .research-detail-figures figure:nth-child(2) .research-detail-viewport { aspect-ratio: 686 / 416; }
+  .research-projects #fuel-cell-adhesive-durability .research-detail-figures figure:nth-child(2) .research-detail-viewport img { width: 110.2040816327%; left: -5.1020408163%; top: 0; }
   .research-projects .research-detail-figures figure { min-width: 0; margin: 0; }
   .research-projects .research-detail-figures img { width: 100%; height: auto; object-fit: contain; }
   .research-projects .research-detail-figures figcaption { font-size: 0.8rem; line-height: 1.6; margin-top: 0.5rem; color: var(--research-muted); }
-  .research-projects #surface-segregation-of-nanoparticles .research-detail-figures figcaption { font-style: italic; text-align: center; margin-top: 0.65rem; }
+  .research-projects #surface-segregation-of-nanoparticles .research-detail-figures figcaption, .research-projects #fuel-cell-adhesive-durability .research-detail-figures figcaption { font-style: italic; text-align: center; margin-top: 0.65rem; }
   .research-projects .research-detail-figure-placeholder { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 0.5rem; min-height: 120px; padding: 1rem; border-bottom: 1px solid var(--research-border); text-align: center; }
   .research-projects .research-detail-figure-placeholder span, .research-projects .research-detail-figure-placeholder small { font-size: 0.8rem; color: var(--research-muted); }
   .research-projects .research-detail-outputs { list-style: none; padding: 0; margin: 0; font-size: 0.85rem; }
@@ -75,6 +82,10 @@ _styles: |
     .research-projects .research-details-inner { padding: 1.25rem; }
     .research-projects .research-detail-figures { grid-template-columns: minmax(0, 1fr); }
     .research-projects #surface-segregation-of-nanoparticles .research-detail-figures { grid-template-columns: minmax(0, 1fr); container-type: inline-size; }
+    .research-projects #fuel-cell-adhesive-durability .research-detail-figures { grid-template-columns: minmax(0, 1fr); container-type: inline-size; }
+    .research-projects #fuel-cell-adhesive-durability .research-detail-viewport { height: calc(100cqw * 416 / 686); margin-inline: auto; }
+    .research-projects #fuel-cell-adhesive-durability .research-detail-figures figure:first-child .research-detail-viewport { width: 99.4388387899%; }
+    .research-projects #fuel-cell-adhesive-durability .research-detail-figures figure:nth-child(2) .research-detail-viewport { width: 100%; }
     .research-projects #surface-segregation-of-nanoparticles .research-detail-figures img { display: block; width: auto; max-width: 100%; height: calc(100cqw * 416 / 756); margin-inline: auto; }
   }
 ---
@@ -147,7 +158,7 @@ _styles: |
           <div class="research-detail-figures">
             {% if project.detail_figures.size > 0 %}
             {% for figure in project.detail_figures limit: 2 %}
-            <figure><img src="{{ figure.image | relative_url }}" alt="{{ figure.alt | escape }}" loading="lazy"{% if figure.zoom %} data-zoomable{% endif %}>{% if figure.caption %}<figcaption>{{ figure.caption }}</figcaption>{% endif %}</figure>
+            <figure>{% if figure.crop %}<div class="research-detail-viewport">{% endif %}<img src="{{ figure.image | relative_url }}" alt="{{ figure.alt | escape }}" loading="lazy"{% if figure.zoom %} data-zoomable{% endif %}>{% if figure.crop %}</div>{% endif %}{% if figure.caption %}<figcaption>{{ figure.caption }}</figcaption>{% endif %}</figure>
             {% endfor %}
             {% else %}
             {% for number in (1..2) %}

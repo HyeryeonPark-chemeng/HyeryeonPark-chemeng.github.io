@@ -59,7 +59,17 @@ projects:
       Accelerated aging protocols were designed to isolate and combine electrochemical, acidic, radical-induced, and temperature-cycling stresses relevant to fuel-cell operation. Time-resolved peel testing was integrated with FT-IR, AFM, FE-SEM/EDS, contact-angle, and water-uptake analyses to track changes in adhesive and membrane interfaces and distinguish transitions in failure mode over prolonged exposure.
     detail_significance: >-
       The study revealed that sealing degradation evolves through distinct interfacial failure regimes rather than following a single degradation pathway. Electrochemical, chemical, and thermal stresses interact to alter both adhesive–membrane integrity and membrane stability over time, highlighting the need for multifactorial reliability evaluation when designing durable polymer interfaces for fuel-cell systems.
-    detail_figures: []
+    detail_figures:
+      - image: /assets/img/fuel-cell-adhesive-detail-1.jpg
+        caption: FT-IR mapping of MEA frame fracture surfaces after 504 h under acidic conditions.
+        alt: Photographs of acidic-condition fracture surfaces with sites A–D linked to FT-IR spectra, alongside pure membrane and adhesive reference spectra.
+        zoom: true
+        crop: true
+      - image: /assets/img/fuel-cell-adhesive-detail-2.jpg
+        caption: Cross-sectional FE-SEM/EDS of MEA frame films after 24 and 504 h under acidic and Fenton conditions at 0.85 V.
+        alt: Cross-sectional FE-SEM images and fluorine EDS maps of MEA frame films after 24 and 504 h under acidic and Fenton conditions at 0.85 V.
+        zoom: true
+        crop: true
     period: Jul 2024 – Present
     funding: Hyundai Motor Group
     methods: Accelerated degradation · Interfacial adhesion · Multi-stress reliability · Failure-mode analysis · Polymer interface characterization
