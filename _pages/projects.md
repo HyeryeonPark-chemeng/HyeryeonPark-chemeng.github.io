@@ -14,11 +14,13 @@ _styles: |
   .research-projects .research-project-group > h2 { font-size: 1.5rem; font-weight: 600; line-height: 1.35; margin: 0 0 1.25rem; }
   .research-projects .research-project-card { scroll-margin-top: 6rem; display: grid; grid-template-columns: 32% minmax(0, 1fr); overflow: hidden; border: 1px solid var(--research-border); border-radius: 4px; background: var(--global-bg-color); margin-bottom: 1.5rem; }
   .research-projects .research-project-visual { display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 0; margin: 1.5rem 0 1.5rem 1.5rem; padding: 1rem; background: var(--research-surface); border-radius: 2px; }
-  .research-projects #surface-segregation-of-nanoparticles .research-project-visual, .research-projects #fuel-cell-adhesive-durability .research-project-visual, .research-projects #dual-network-acrylic-adhesives .research-project-visual { padding: 0; background: transparent; }
+  .research-projects #surface-segregation-of-nanoparticles .research-project-visual, .research-projects #fuel-cell-adhesive-durability .research-project-visual, .research-projects #dual-network-acrylic-adhesives .research-project-visual, .research-projects #shear-directed-nanorod-alignment .research-project-visual { padding: 0; background: transparent; }
   @media (min-width: 768px) {
-    .research-projects #surface-segregation-of-nanoparticles .research-project-visual, .research-projects #fuel-cell-adhesive-durability .research-project-visual, .research-projects #dual-network-acrylic-adhesives .research-project-visual { margin: 1.25rem 0 1.25rem 1.25rem; }
+    .research-projects #surface-segregation-of-nanoparticles .research-project-visual, .research-projects #fuel-cell-adhesive-durability .research-project-visual, .research-projects #dual-network-acrylic-adhesives .research-project-visual, .research-projects #shear-directed-nanorod-alignment .research-project-visual { margin: 1.25rem 0 1.25rem 1.25rem; }
   }
   .research-projects .research-project-visual img { display: block; width: 100%; height: auto; object-fit: contain; }
+  .research-projects #shear-directed-nanorod-alignment .research-main-viewport { position: relative; overflow: hidden; width: 100%; aspect-ratio: 716 / 796; }
+  .research-projects #shear-directed-nanorod-alignment .research-main-viewport img { position: absolute; max-width: none; width: 105.5865921788%; height: auto; left: -2.2346368715%; top: -7.0351758794%; }
   .research-projects .research-project-visual figcaption { font-size: 0.8rem; line-height: 1.6; margin-top: 0.75rem; color: var(--research-muted); }
   .research-projects .research-figure-placeholder { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.5rem; width: 100%; min-height: 150px; padding: 1rem; text-align: center; }
   .research-projects .research-figure-placeholder::before { content: ''; width: 2rem; height: 1px; background: var(--research-border); margin-bottom: 0.5rem; }
@@ -107,7 +109,7 @@ _styles: |
     <article class="research-project-card" id="{{ project.id }}" aria-labelledby="{{ project.id }}-title">
       <figure class="research-project-visual">
         {% if project.image != '' %}
-        <img src="{{ project.image | relative_url }}" alt="{{ project.image_alt | escape }}" loading="lazy"{% if project.image_zoom %} data-zoomable{% endif %}>
+        {% if project.image_crop %}<div class="research-main-viewport">{% endif %}<img src="{{ project.image | relative_url }}" alt="{{ project.image_alt | escape }}" loading="lazy"{% if project.image_zoom %} data-zoomable{% endif %}>{% if project.image_crop %}</div>{% endif %}
         {% if project.image_caption %}<figcaption>{{ project.image_caption }}</figcaption>{% endif %}
         {% else %}
         <div class="research-figure-placeholder" role="img" aria-label="Scientific figure placeholder for {{ project.title | escape }}">

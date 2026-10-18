@@ -44,8 +44,10 @@ projects:
     period: Jun 2026 – Present
     funding: Samsung Display
     methods: Nanorod synthesis · Surface functionalization · Rheology · Shear-induced alignment · Structure–property relationships
-    image: ""
-    image_alt: ""
+    image_zoom: true
+    image_crop: true
+    image: /assets/img/shear-directed-nanorod-alignment-schematic.jpg
+    image_alt: Schematic of shear coating that orients nanorods within a pressure-sensitive adhesive resin, showing disordered rods before the coating blade and aligned rods along the shear-flow direction.
     description: >-
       Investigating how shear flow can be used to control nanorod orientation in pressure-sensitive adhesive films. The project examines relationships among processing conditions, particle alignment, and the resulting mechanical and optical properties of polymer adhesive films.
     links: []
