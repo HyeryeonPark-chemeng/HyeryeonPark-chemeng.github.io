@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /research-journey/
-title: Research Journey
-description: Why I chose a life in research.
+title: Beyond the CV
+description: The story behind why I chose research.
 nav: true
 nav_order: 4
 _styles: |
