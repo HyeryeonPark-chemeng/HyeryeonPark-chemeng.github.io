@@ -62,6 +62,8 @@ _styles: |
   .research-projects #dual-network-acrylic-adhesives .research-detail-figures { grid-template-columns: minmax(0, 1.4977973568fr) minmax(0, 1.4109347443fr); align-items: start; }
   .research-projects #shear-directed-nanorod-alignment .research-detail-figures { grid-template-columns: minmax(0, 1fr); }
   .research-projects #shear-directed-nanorod-alignment .research-detail-figures figure { width: 100%; max-width: 46rem; justify-self: center; }
+  .research-projects #shear-directed-nanorod-alignment .research-detail-viewport { position: relative; overflow: hidden; width: 100%; aspect-ratio: 945 / 342; }
+  .research-projects #shear-directed-nanorod-alignment .research-detail-viewport img { position: absolute; max-width: none; width: 100%; height: auto; left: 0; top: -14.0350877193%; }
   .research-projects .research-detail-figures figure { min-width: 0; margin: 0; }
   .research-projects .research-detail-figures img { width: 100%; height: auto; object-fit: contain; }
   .research-projects .research-detail-figures figcaption { font-size: 0.8rem; line-height: 1.6; margin-top: 0.5rem; color: var(--research-muted); }

@@ -45,6 +45,7 @@ projects:
         caption: AFM-based nanorod alignment-angle analysis using image thresholding and orientation measurements.
         alt: AFM image of nanorods with three selected regions, cropped and thresholded images with measured rod angles, and an alignment-angle distribution referenced to the coating direction.
         zoom: true
+        crop: true
     period: Jun 2026 – Present
     funding: Samsung Display
     methods: Nanorod synthesis · Surface functionalization · Rheology · Shear-induced alignment · Structure–property relationships
