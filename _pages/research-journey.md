@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /research-journey/
+permalink: /beyond-the-cv/
 title: Beyond the CV
 description: The story behind why I chose research.
 nav: true
