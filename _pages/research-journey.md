@@ -44,15 +44,16 @@ _styles: |
 <div class="research-journey">
   <!-- Temporary prose throughout: replace paragraph text as the personal narrative is developed. -->
   <div class="journey-intro">
-    <p>This page will trace the experiences and questions that shaped my decision to pursue research. The chapters below will connect those moments with the way I approach scientific work today.</p>
+    <p>Research was never an unfamiliar way of life to me, because I grew up watching someone close to me live as a researcher. But that did not mean I assumed I would become one myself. It was only after spending several years engaging with chemistry in a different way, returning fully to my studies, discovering polymers, and encountering results that did not fit my own hypotheses that I began to understand why I wanted to pursue research for myself.</p>
   </div>
 
   <section class="journey-section journey-section--split" aria-labelledby="seeing-research-heading">
     <div class="journey-copy">
       <span class="journey-section-number">01</span>
       <h2 id="seeing-research-heading">Seeing a Life in Research</h2>
-      <p>This chapter will describe an early encounter with research. A personal recollection will set the scene and explain why that experience remained meaningful.</p>
-      <p>The account will reflect on the people, questions, or everyday practices that made a life in research feel tangible.</p>
+      <p>I first came to know the life of a researcher through my mother. She earned a Ph.D. in pharmacy and had already begun her research career before I was born, building her place in both research and industry at a time when professional advancement for women in Korea was far more difficult than it is today.</p>
+      <p>She was always studying, even on weekends, and continued learning throughout her career. Over time, she advanced into leadership roles despite many of the barriers women often faced in the workplace. Growing up around her, I naturally came to admire the life of a researcher—or, more precisely, the way she chose to live and work.</p>
+      <p>Still, I did not think that I wanted to become a researcher myself. Research was simply a familiar path, one I had always seen up close, rather than one I had imagined as my own.</p>
     </div>
     <figure class="journey-figure">
       <!-- Replace with a contextual photograph and specific alt text; retain the natural image aspect ratio. -->
@@ -65,8 +66,9 @@ _styles: |
     <div class="journey-copy">
       <span class="journey-section-number">02</span>
       <h2 id="known-answers-heading">Beyond Known Answers</h2>
-      <p>This chapter will explore the difference between learning an established answer and formulating a question that does not yet have one. A specific experience will give that distinction a personal context.</p>
-      <p>The reflection will connect that experience with an evolving understanding of how scientific knowledge is developed.</p>
+      <p>When I was twenty, several people close to me founded a chemistry education content company, and I joined as an early member. For the next four years, I led the chemistry team, developing and reviewing mock examination questions for Korea’s College Scholastic Ability Test in the style and scope of the Korea Institute for Curriculum and Evaluation (KICE).</p>
+      <p>Over time, I became more aware of the limits of that work. Because the questions had to be error-free and remain within the range and format that the official exam could realistically use, there was limited room to depart from established patterns. In practice, much of the work involved creating new variations within an already defined framework.</p>
+      <p>I genuinely enjoyed the work, and for a long time I thought continuing in that field would be a perfectly good path. But I gradually found myself wanting to work on a different kind of problem—not one where the answer was already known and the task was to ask it differently, but one where the problem itself had yet to be defined and the next step depended on my own reasoning.</p>
     </div>
   </section>
 
@@ -74,8 +76,9 @@ _styles: |
     <div class="journey-copy">
       <span class="journey-section-number">03</span>
       <h2 id="discovering-polymers-heading">Discovering Polymers</h2>
-      <p>This chapter will introduce the experiences that brought polymer materials into focus. A course, laboratory encounter, or research question will provide the starting point for this part of the story.</p>
-      <p>The narrative will explain what made this field compelling and how those interests began to take shape.</p>
+      <p>After stepping away from the company and returning my focus to academics, I took Organic Materials Engineering with Professor Jun Hyup Lee, who is now my master’s advisor, and began to engage more seriously with the properties and applications of polymers.</p>
+      <p>In the previous semester, Polymer Science had introduced me to the fundamentals of polymers, including synthesis, nomenclature, and molecular weight. Organic Materials Engineering, however, made the connection between molecular structure and real material properties much more tangible through specific examples. As an undergraduate, I was especially struck by materials such as SBS (styrene-butadiene-styrene) and ABS (acrylonitrile-butadiene-styrene). The idea that distinct polymer segments or phases could be combined within one material, and that composition, molecular architecture, and phase structure could be tuned to engineer materials for different applications, was fascinating to me.</p>
+      <p>After my third year, I joined the laboratory as an undergraduate researcher. Reading papers and beginning hands-on experimental work showed me even more clearly how broadly polymers can be designed and used. I found myself increasingly interested in understanding how molecular-level interactions develop into structure and, ultimately, material properties.</p>
     </div>
     <figure class="journey-figure">
       <!-- Future alt text should identify the actual undergraduate research setting and relevant activity. -->
