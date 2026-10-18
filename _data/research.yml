@@ -35,11 +35,11 @@ projects:
     id: shear-directed-nanorod-alignment
     group: featured
     detail_background: >-
-      Conventional approaches to improving impact resistance in display adhesives often rely on increasing stiffness or filler content, which can introduce trade-offs in flexibility, adhesion, and optical performance. This project explores whether anisotropic nanorods can instead be directionally organized within the adhesive matrix to create more continuous pathways for stress transfer without requiring high particle loadings.
+      Pressure-sensitive adhesive films for display applications must balance mechanical performance with optical transparency and interfacial adhesion. This project investigates whether directional organization of anisotropic nanoparticles can provide an additional means of controlling film properties without substantially increasing filler content.
     detail_approach: >-
-      Silica nanorods with tunable aspect ratios are being synthesized and surface-functionalized to improve compatibility with acrylic PSA matrices. Nanorod geometry, surface chemistry, resin viscosity, and shear rate are treated as coupled design variables, with the goal of controlling the competition between rotational diffusion and flow-induced orientation during coating.
+      Nanorods are incorporated into acrylic adhesive matrices, and shear during film processing is used to control their orientation. The resulting particle alignment is characterized under different processing conditions to examine how flow-induced organization develops within the polymer matrix.
     detail_significance: >-
-      The project aims to establish nanorod orientation as a processing-controlled structural variable for transparent adhesive films. By linking particle anisotropy and rheological conditions to alignment behavior, the work seeks to determine whether directional particle organization can provide more effective pathways for impact-load transfer and distribution while minimizing the optical and mechanical penalties associated with conventional filler reinforcement.
+      The project aims to establish relationships among processing conditions, nanorod orientation, and the resulting mechanical and optical properties of the adhesive films.
     detail_figures: []
     period: Jun 2026 – Present
     funding: Samsung Display
@@ -47,7 +47,7 @@ projects:
     image: ""
     image_alt: ""
     description: >-
-      Investigating how shear flow can be used to control nanorod orientation in pressure-sensitive adhesive films. The project combines nanorod aspect-ratio design, surface functionalization, and resin rheology to establish processing conditions that promote directional alignment and potentially improve impact-energy distribution while preserving optical transparency.
+      Investigating how shear flow can be used to control nanorod orientation in pressure-sensitive adhesive films. The project examines relationships among processing conditions, particle alignment, and the resulting mechanical and optical properties of polymer adhesive films.
     links: []
   - title: Long-Term Reliability of Adhesive Interfaces in Fuel-Cell MEAs
     interest_anchor: interfacial-reliability
