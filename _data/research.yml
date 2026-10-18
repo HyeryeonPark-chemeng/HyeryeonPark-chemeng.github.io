@@ -16,7 +16,7 @@ projects:
         caption: Si EDS profiles of PSA films with 1 wt% pristine silica, silica@GPTMS, or IRSN.
         alt: Cross-sectional SEM images and silicon EDS intensity profiles for heat-treated pristine silica, Silica@GPTMS, and IRSN films at 1 wt%, with the top 25% of film thickness marked.
         zoom: true
-      - image: /assets/img/surface-segregation-detail-2-compact.jpg
+      - image: /assets/img/surface-segregation-detail-2-compact-20261018.jpg
         caption: Heat-treatment effects on surface segregation (top 25% of film thickness) and impact resistance.
         alt: Bar charts comparing surface segregation ratio and ball-drop impact resistance for no-heat and 40–70 °C processing conditions, with even and surface-rich particle distributions indicated.
         zoom: true
