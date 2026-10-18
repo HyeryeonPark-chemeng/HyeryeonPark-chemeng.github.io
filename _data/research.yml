@@ -40,7 +40,11 @@ projects:
       Nanorods are incorporated into acrylic adhesive matrices, and shear during film processing is used to control their orientation. The resulting particle alignment is characterized under different processing conditions to examine how flow-induced organization develops within the polymer matrix.
     detail_significance: >-
       The project aims to establish relationships among processing conditions, nanorod orientation, and the resulting mechanical and optical properties of the adhesive films.
-    detail_figures: []
+    detail_figures:
+      - image: /assets/img/nanorod-alignment-angle-analysis.jpg
+        caption: AFM-based nanorod alignment-angle analysis using image thresholding and orientation measurements.
+        alt: AFM image of nanorods with three selected regions, cropped and thresholded images with measured rod angles, and an alignment-angle distribution referenced to the coating direction.
+        zoom: true
     period: Jun 2026 – Present
     funding: Samsung Display
     methods: Nanorod synthesis · Surface functionalization · Rheology · Shear-induced alignment · Structure–property relationships

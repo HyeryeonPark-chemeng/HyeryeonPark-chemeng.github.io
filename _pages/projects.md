@@ -60,10 +60,12 @@ _styles: |
   .research-projects #fuel-cell-adhesive-durability .research-detail-figures figure:nth-child(2) .research-detail-viewport { aspect-ratio: 686 / 416; }
   .research-projects #fuel-cell-adhesive-durability .research-detail-figures figure:nth-child(2) .research-detail-viewport img { width: 110.2040816327%; left: -5.1020408163%; top: 0; }
   .research-projects #dual-network-acrylic-adhesives .research-detail-figures { grid-template-columns: minmax(0, 1.4977973568fr) minmax(0, 1.4109347443fr); align-items: start; }
+  .research-projects #shear-directed-nanorod-alignment .research-detail-figures { grid-template-columns: minmax(0, 1fr); }
+  .research-projects #shear-directed-nanorod-alignment .research-detail-figures figure { width: 100%; max-width: 46rem; justify-self: center; }
   .research-projects .research-detail-figures figure { min-width: 0; margin: 0; }
   .research-projects .research-detail-figures img { width: 100%; height: auto; object-fit: contain; }
   .research-projects .research-detail-figures figcaption { font-size: 0.8rem; line-height: 1.6; margin-top: 0.5rem; color: var(--research-muted); }
-  .research-projects #surface-segregation-of-nanoparticles .research-detail-figures figcaption, .research-projects #fuel-cell-adhesive-durability .research-detail-figures figcaption, .research-projects #dual-network-acrylic-adhesives .research-detail-figures figcaption { font-style: italic; text-align: center; margin-top: 0.65rem; }
+  .research-projects #surface-segregation-of-nanoparticles .research-detail-figures figcaption, .research-projects #fuel-cell-adhesive-durability .research-detail-figures figcaption, .research-projects #dual-network-acrylic-adhesives .research-detail-figures figcaption, .research-projects #shear-directed-nanorod-alignment .research-detail-figures figcaption { font-style: italic; text-align: center; margin-top: 0.65rem; }
   .research-projects .research-detail-figure-placeholder { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 0.5rem; min-height: 120px; padding: 1rem; border-bottom: 1px solid var(--research-border); text-align: center; }
   .research-projects .research-detail-figure-placeholder span, .research-projects .research-detail-figure-placeholder small { font-size: 0.8rem; color: var(--research-muted); }
   .research-projects .research-detail-outputs { list-style: none; padding: 0; margin: 0; font-size: 0.85rem; }
