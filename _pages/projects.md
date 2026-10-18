@@ -14,9 +14,9 @@ _styles: |
   .research-projects .research-project-group > h2 { font-size: 1.5rem; font-weight: 600; line-height: 1.35; margin: 0 0 1.25rem; }
   .research-projects .research-project-card { scroll-margin-top: 6rem; display: grid; grid-template-columns: 32% minmax(0, 1fr); overflow: hidden; border: 1px solid var(--research-border); border-radius: 4px; background: var(--global-bg-color); margin-bottom: 1.5rem; }
   .research-projects .research-project-visual { display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 0; margin: 1.5rem 0 1.5rem 1.5rem; padding: 1rem; background: var(--research-surface); border-radius: 2px; }
-  .research-projects #surface-segregation-of-nanoparticles .research-project-visual, .research-projects #fuel-cell-adhesive-durability .research-project-visual { padding: 0; background: transparent; }
+  .research-projects #surface-segregation-of-nanoparticles .research-project-visual, .research-projects #fuel-cell-adhesive-durability .research-project-visual, .research-projects #dual-network-acrylic-adhesives .research-project-visual { padding: 0; background: transparent; }
   @media (min-width: 768px) {
-    .research-projects #surface-segregation-of-nanoparticles .research-project-visual, .research-projects #fuel-cell-adhesive-durability .research-project-visual { margin: 1.25rem 0 1.25rem 1.25rem; }
+    .research-projects #surface-segregation-of-nanoparticles .research-project-visual, .research-projects #fuel-cell-adhesive-durability .research-project-visual, .research-projects #dual-network-acrylic-adhesives .research-project-visual { margin: 1.25rem 0 1.25rem 1.25rem; }
   }
   .research-projects .research-project-visual img { display: block; width: 100%; height: auto; object-fit: contain; }
   .research-projects .research-project-visual figcaption { font-size: 0.8rem; line-height: 1.6; margin-top: 0.75rem; color: var(--research-muted); }
@@ -57,10 +57,11 @@ _styles: |
   .research-projects #fuel-cell-adhesive-durability .research-detail-figures figure:first-child .research-detail-viewport img { width: 111.4754098361%; left: -3.9344262295%; top: -13.4408602151%; }
   .research-projects #fuel-cell-adhesive-durability .research-detail-figures figure:nth-child(2) .research-detail-viewport { aspect-ratio: 686 / 416; }
   .research-projects #fuel-cell-adhesive-durability .research-detail-figures figure:nth-child(2) .research-detail-viewport img { width: 110.2040816327%; left: -5.1020408163%; top: 0; }
+  .research-projects #dual-network-acrylic-adhesives .research-detail-figures { grid-template-columns: minmax(0, 1.4977973568fr) minmax(0, 1.4109347443fr); align-items: start; }
   .research-projects .research-detail-figures figure { min-width: 0; margin: 0; }
   .research-projects .research-detail-figures img { width: 100%; height: auto; object-fit: contain; }
   .research-projects .research-detail-figures figcaption { font-size: 0.8rem; line-height: 1.6; margin-top: 0.5rem; color: var(--research-muted); }
-  .research-projects #surface-segregation-of-nanoparticles .research-detail-figures figcaption, .research-projects #fuel-cell-adhesive-durability .research-detail-figures figcaption { font-style: italic; text-align: center; margin-top: 0.65rem; }
+  .research-projects #surface-segregation-of-nanoparticles .research-detail-figures figcaption, .research-projects #fuel-cell-adhesive-durability .research-detail-figures figcaption, .research-projects #dual-network-acrylic-adhesives .research-detail-figures figcaption { font-style: italic; text-align: center; margin-top: 0.65rem; }
   .research-projects .research-detail-figure-placeholder { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 0.5rem; min-height: 120px; padding: 1rem; border-bottom: 1px solid var(--research-border); text-align: center; }
   .research-projects .research-detail-figure-placeholder span, .research-projects .research-detail-figure-placeholder small { font-size: 0.8rem; color: var(--research-muted); }
   .research-projects .research-detail-outputs { list-style: none; padding: 0; margin: 0; font-size: 0.85rem; }
@@ -82,6 +83,8 @@ _styles: |
     .research-projects .research-details-inner { padding: 1.25rem; }
     .research-projects .research-detail-figures { grid-template-columns: minmax(0, 1fr); }
     .research-projects #surface-segregation-of-nanoparticles .research-detail-figures { grid-template-columns: minmax(0, 1fr); container-type: inline-size; }
+    .research-projects #dual-network-acrylic-adhesives .research-detail-figures { grid-template-columns: minmax(0, 1fr); container-type: inline-size; }
+    .research-projects #dual-network-acrylic-adhesives .research-detail-figures img { display: block; width: auto; max-width: 100%; height: calc(100cqw * 454 / 680); margin-inline: auto; }
     .research-projects #fuel-cell-adhesive-durability .research-detail-figures { grid-template-columns: minmax(0, 1fr); container-type: inline-size; }
     .research-projects #fuel-cell-adhesive-durability .research-detail-viewport { height: calc(100cqw * 416 / 686); margin-inline: auto; }
     .research-projects #fuel-cell-adhesive-durability .research-detail-figures figure:first-child .research-detail-viewport { width: 99.4388387899%; }

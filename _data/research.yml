@@ -96,11 +96,20 @@ projects:
       Photoreactive elastic nano-crosslinkers with a silica core and flexible polymer shell were incorporated into an acrylic matrix to form a nanoscale elastic network, while a low-molecular-weight molecular-bridge crosslinker was introduced to enhance network connectivity. By comparing nano-crosslinker-only, molecular-crosslinker-only, and dual-network films, the individual and synergistic contributions of each network component were evaluated through adhesion, tensile, stress-relaxation, strain-recovery, cyclic loading–unloading, and optical measurements.
     detail_significance: >-
       The dual-network architecture enabled mechanical recovery and cyclic stability to be improved without sacrificing the optical clarity and adhesion required for display applications. The results show that recovery performance is governed not simply by crosslink density, but by how nanoscale elastic reinforcement and molecular-scale connectivity cooperate to store, transfer, and recover deformation energy.
-    detail_figures: []
+    detail_figures:
+      - image: /assets/img/dual-network-adhesives-detail-1.jpg
+        caption: Time-dependent stress relaxation (a–c) and residual strain recovery (d–f) at 10%, 20%, and 100% strain.
+        alt: Six plots comparing stress relaxation ratios and residual strain recovery over time for five film formulations at 10%, 20%, and 100% strain.
+        zoom: true
+      - image: /assets/img/dual-network-adhesives-detail-2.png
+        caption: Stretching and recovery mechanism of an elastic double-network acrylic nanocomposite adhesive.
+        alt: Schematic of stretching and recovery in a double-network acrylic adhesive, showing flexible silica nanoparticles, PETA crosslinking, and PPGDA hydrophobic interactions and chain entanglement.
+        zoom: true
     period: May 2026 – Aug 2026
     methods: Elastic nano-crosslinkers · Dual-network design · Stress relaxation · Strain recovery · Optical/adhesive performance
-    image: ""
-    image_alt: ""
+    image_zoom: true
+    image: /assets/img/dual-network-acrylic-adhesives-schematic.jpg
+    image_alt: Schematic of a stretchable double-network acrylic adhesive with flexible silica nanoparticles and multifunctional crosslinkers supporting elastic deformation and recovery.
     description: >-
       Developed dual-network acrylic adhesive films that combine a nanoparticle-mediated nanoscale elastic network with molecular-scale bridge crosslinking to improve mechanical recovery under repeated deformation. By separating the roles of elastic nano-crosslinkers and molecular-bridge crosslinkers, I established structure–property relationships linking network architecture to strain recovery, stress relaxation, adhesion, and optical transparency.
     links: []
