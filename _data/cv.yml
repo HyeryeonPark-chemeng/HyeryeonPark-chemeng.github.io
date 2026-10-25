@@ -7,11 +7,11 @@ cv:
   sections:
     RESEARCH INTERESTS:
       - bullet: >-
-          <strong>Polymer nanocomposites and functional soft materials:</strong> viscoelasticity, interfacial adhesion, and long-term reliability under repeated deformation
+          <strong>Functional polymers and soft materials:</strong> polymer network architecture, interfacial interactions, and mechanical and optical properties
       - bullet: >-
-          <strong>Particle assembly and patterning in polymer thin films:</strong> spontaneous surface segregation, shear-flow-induced alignment, and magnetic-field-induced patterning
+          <strong>Polymer nanocomposites and hierarchical structures:</strong> particle organization, directed assembly, and spatial control of material properties
       - bullet: >-
-          <strong>Processing–structure–property relationships in polymer films and coatings:</strong> rheology, interfacial mechanics, and optical performance for flexible displays
+          <strong>Processing–structure–property relationships:</strong> rheology, coating and patterning, and multiscale structure formation in polymeric materials
     EDUCATION:
       - date_range: Mar 2025 – Present
         title: Soongsil University
@@ -64,12 +64,12 @@ cv:
     RESEARCH EXPERIENCE:
       - date_range: Jun 2024 – Present
         title: Development of Surface-Segregated Nanocomposite Adhesives and Overcoat Films for Impact Resistance
-        subtitle: Sponsored by Nissan Chemical Korea
+        subtitle: M.S. Thesis Research, Sponsored by Nissan Chemical Korea
         subtitle_italic: true
         highlights:
-          - Developed surface-functionalized nanoparticle/PSA systems with controlled surface segregation, achieving a 20% improvement in impact resistance and leading to a Korean patent application.
-          - Extended the surface-segregation strategy to overcoat films with a hard-surface/soft-bulk mechanical gradient by controlling nanoparticle enrichment.
-          - Quantified nanoparticle distribution and correlated segregation behavior with mechanical and optical performance using SEM/EDS, nanoindentation, ball-drop testing, and UV–Vis spectroscopy.
+          - Investigated the mechanisms governing nanoparticle surface segregation by testing the roles of surface-energy differences, thermal effects, and particle–resin compatibility through targeted control experiments.
+          - Designed surface-functionalized nanoparticle/PSA formulations to control particle enrichment, achieving a 20% improvement in impact resistance and contributing to a Korean patent application.
+          - Extended the surface-segregation strategy to overcoat films with hard-surface/soft-bulk mechanical gradients and correlated nanoparticle distribution with mechanical and optical properties using SEM/EDS, nanoindentation, ball-drop testing, and UV–Vis spectroscopy.
       - date_range: Jul 2026 – Present
         title: Development of High-Impact-Resistant Pressure-Sensitive Adhesives via Shear Flow-Induced Nano-Alignment of Nanorods
         subtitle: Sponsored by Samsung Display Corporation

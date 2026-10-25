@@ -48,7 +48,7 @@ _styles: |
 {% for section in cv.sections %}
 
   <section class="card mt-3 p-3" aria-labelledby="{{ section[0] | slugify }}">
-    <h3 class="card-title font-weight-medium" id="{{ section[0] | slugify }}"><strong>{{ section[0] }}</strong></h3>
+    <h3 class="card-title font-weight-medium" id="{{ section[0] | slugify }}"><strong>{% if section[0] == 'PUBLICATIONS' %}PUBLICATIONS &amp; MANUSCRIPTS{% else %}{{ section[0] }}{% endif %}</strong></h3>
     {% if section[1][0].bullet %}
     <ul class="card-text font-weight-light cv-bullets">
       {% for entry in section[1] %}
