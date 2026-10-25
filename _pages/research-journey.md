@@ -116,7 +116,7 @@ _styles: |
   <section class="journey-section" aria-labelledby="looking-forward-heading">
     <div class="journey-copy">
       <h2 id="looking-forward-heading">Looking Forward</h2>
-      <p>A concluding reflection will bring these experiences together and connect them with the next stage of research. This space will express the questions, working habits, and aspirations that I hope to carry forward.</p>
+      <p>I now hope to deepen my understanding of polymeric materials through Ph.D. training and grow into an independent researcher who can define meaningful questions, design thoughtful approaches to them, and continue learning from results that challenge my expectations.</p>
       <div class="journey-links">
         <a href="{{ '/research/' | relative_url }}">Explore my research →</a>
         <a href="{{ '/cv/' | relative_url }}">View my CV →</a>
