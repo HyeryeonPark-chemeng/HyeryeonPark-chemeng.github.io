@@ -55,11 +55,6 @@ _styles: |
       <p>She was always studying, even on weekends, and continued learning throughout her career. Over time, she moved into leadership roles despite many of the barriers women faced in the workplace. Growing up around her, I naturally came to admire the life of a researcher—or, more precisely, the way she chose to live and work.</p>
       <p>Still, I did not think that I wanted to become a researcher myself. Research was simply a familiar path, one I had always seen up close, rather than one I had imagined as my own.</p>
     </div>
-    <figure class="journey-figure">
-      <!-- Replace with a contextual photograph and specific alt text; retain the natural image aspect ratio. -->
-      <div class="journey-photo-placeholder" role="img" aria-label="Photo placeholder: early academic or personal context"><span>Photo placeholder</span></div>
-      <figcaption>Early academic / personal context — photograph to be added.</figcaption>
-    </figure>
   </section>
 
   <section class="journey-section" aria-labelledby="known-answers-heading">
@@ -80,11 +75,6 @@ _styles: |
       <p>Polymer Science had previously introduced me to fundamentals such as synthesis and molecular weight, but Organic Materials Engineering made the relationship between structure and properties much more tangible. I was particularly struck by materials such as SBS and ABS, and by the idea that composition, molecular architecture, and phase structure could be deliberately adjusted to achieve desired properties. I became drawn to polymer materials because they could be engineered for a particular purpose through deliberate control of composition, formulation, and processing.</p>
       <p>During the course, I contacted Professor Lee about joining his group and entered the laboratory after my third year. There, I encountered polymer materials for very different applications, from pressure-sensitive adhesives for displays to subgaskets for proton exchange membrane fuel cells. Seeing how design and processing could tailor polymer materials for entirely different functions turned my interest in polymers into an interest in research itself.</p>
     </div>
-    <figure class="journey-figure">
-      <!-- Future alt text should identify the actual undergraduate research setting and relevant activity. -->
-      <div class="journey-photo-placeholder" role="img" aria-label="Photo placeholder: undergraduate research or laboratory context"><span>Photo placeholder</span></div>
-      <figcaption>Undergraduate research / laboratory — photograph to be added.</figcaption>
-    </figure>
   </section>
 
   <section class="journey-section" aria-labelledby="research-became-mine-heading">
@@ -106,11 +96,6 @@ _styles: |
       <p>At first, it was frustrating to find that my original hypothesis did not fully align with the data. Over time, I came to see unexpected results not simply as failures, but as evidence that something important had yet to be considered. Testing alternative explanations led me to new experimental methods, analytical approaches, and theoretical frameworks that I had not previously encountered.</p>
       <p>I no longer think that the value of research lies in confirming an initial hypothesis exactly as proposed. What draws me to research is the process of tracing unexpected results, expanding my understanding, and revising both questions and hypotheses as new evidence emerges. The more I learn, the more clearly I see what remains unknown—and that continuing process of learning is one of the strongest reasons I want to continue in research.</p>
     </div>
-    <figure class="journey-figure">
-      <!-- Future alt text should describe the actual master's research setting without inferring unseen details. -->
-      <div class="journey-photo-placeholder" role="img" aria-label="Photo placeholder: master's research or laboratory context"><span>Photo placeholder</span></div>
-      <figcaption>Master’s research / laboratory — photograph to be added.</figcaption>
-    </figure>
   </section>
 
   <section class="journey-section" aria-labelledby="looking-forward-heading">
