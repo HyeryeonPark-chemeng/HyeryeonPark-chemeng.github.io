@@ -25,7 +25,7 @@ _styles: |
     {% assign year_publications = publications | where: 'year', year %}
     {% for publication in year_publications %}
     <li>
-      {{ publication.bullet | replace: '<strong>HR. Park</strong>', '<strong><u>HR. Park</u></strong>' | replace: 'Manuscript in preparation.', '<strong>In preparation</strong>.' | replace: 'Under Review.', '<strong>Under Review</strong>.' | replace: 'ACS Applied Polymer Materials,', '<em>ACS Applied Polymer Materials</em>,' }}
+      {{ publication.bullet | replace: '<strong>HR. Park</strong>', '<strong><u>HR. Park</u></strong>' | replace: 'Manuscript in preparation.', '<strong>In preparation</strong>.' | replace: 'Under Revision.', '<strong>Under Revision</strong>.' | replace: 'ACS Applied Polymer Materials,', '<em>ACS Applied Polymer Materials</em>,' }}
       {% if publication.impact_factor %}
       [I.F.= {{ publication.impact_factor }}, JCR Top {{ publication.jcr_top }}%]
       {% endif %}
